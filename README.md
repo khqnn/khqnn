@@ -1,4 +1,3 @@
-
 <!--
 **khqnn/khqnn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -13,6 +12,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
 
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" width="100"/>
@@ -32,8 +32,10 @@ Here are some ideas to get you started:
 <img src="https://komarev.com/ghpvc/?username=khqnn&style=flat-square&color=blue" alt=""/>
 
 <h1>
-  hey there
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+  Hey there 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> 
+  I engineer the software solutions
+  
 </h1>
 
 
