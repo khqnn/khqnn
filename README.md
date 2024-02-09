@@ -135,6 +135,12 @@ stealth25519 Python Package
 
 <!-- 
 
+feedback:
+1. claim ownership of the projects delivered individualy (update role and respnsibilites)
+2. add more graphics in projects
+3. add more code snippets
+
+
 Projects:
 1. nitro (metaverse game project, blockchain, nodejs backend with typescript, dynamodb, reactjs, docker, ec2, lambda)
 2. techpurview (society management system, nodejs backend, postgres, nextjs, aws ec2, docker)
@@ -168,78 +174,6 @@ Presentations:
 2. api gateway
 
 
-Project: Nitro
-Description: metaverse game project, blockchain, nodejs backend with typescript, dynamodb, reactjs, docker, ec2, lambda
-Role and Responsibilities: Lead software engineer, designing backend architecture, implementing new features, support for existing features
-Chellenges Faced: 1. slow performance due to poor queries of dynamodb 2. poor performance of assets reterieval from blockchain
-Solutions Implemented: 1. query optimization, indexing 2. redis cache implementation, refresh to get latest assets if asset is not displayed
-
-Project: techpurview
-Description: society management system, nodejs backend, postgres, nextjs, aws ec2, docker
-Challenges Faced: multiple connections to db
-Solutions Implemented: singleton design pattern to initiate db connection for once and served for all requests
-
-
-Project: tossdown
-Description: multivendor ecommerce engine, nodejs, codeigniter, php, mysql, lambda
-Challenges Faced: 1. slow performance 2. redundant search results
-Solutions Implemented: 1. identify poor perforamnce endpoints. analyze queries and code. optimize mysql queries using explain keywords and removed uncessary iterations. 2. periodically move data from mysql to elasticsearch and search products from elasticsearch cluster using full text search
-
-
-Project: alpolink
-Description: dump exams selling, php, codeigniter, mysql
-Challenges Faced: architectural issue. each website has its own frontend and database instance.
-Solutions Implemented: one backend for each site. each site served by the one backend.
-
-
-Project: aangan 
-Description: multivendar ecommerce for Pakistani women handcraft items, php, wordpress
-Challenges Faced: there were not reports from woocommerce wordpress plugin
-Solutions Implemented: update plugin code to reterieve data as needed by the organization
-
-Project: information reterieval system
-Description: corpora, support vector machine, python, jupyter notebook, cassandra
-Challenges Faced: document and query indexing
-Solutions Implemented: for simplicity and effectiveness TF-IDF used and get better evaluation in terms of precision and recall
-
-Project: clause generation
-Description: llm, prompt engineering, huggingface, quantization, gpu, Llama, Falcon
-Challenges Faced: llms are too large and were not fitting in available gpu
-Solutions Implemented: for testing EC2 g5.2xlarge instance is used and for local machine quantized llm is used to generate output and evaluated using syntax and semantic similarity
-
-Project: stealth addresses
-Description: x25519, ed25519, stealth address generation, signature and verification
-Challenges Faced: x25519 is the algorithm that is used to generated shared secrete whereas ed25519 is used for generation and verification of signature
-Solutions Implemented: an initial stealth address with single key is implemented using shared secrete methadology of x25519 and then instead of using standard library of ed25519 the core implementation is done natively using rfc8032 and mathematics is used to generate stealth addresses using ed25519
-
-Project: prdocuts pair
-Description: a system to predict probability of items to be sold togather. a priori algorithm is used to calculate prbability
-Challenges Faced: algorithm is implemented but reteriving probabilities of products from transactional database each time proved to be high latency
-Solutions Implemented: periodically update data in denormalized data store from transactional db (mysql) and calculating probabilites from this denormalized db is used to made system with low latency
-
-Project: reporting system
-Description: multitenant reports, data cubes, slices
-Challenges Faced: making reports generic for hunderds of clients was very tricky and time consuming for calculating dimensions from transactions for each client was a headache
-Solutions Implemented: calculate dimensions for data cubes (e.g. time, product, category, branch and brand etc) calculate dimensions and store them in cache (memecache)
-
-
-Project: kidsafe
-Description: app for youtube videos for kids using youtube apis
-Challenges Faced: it initially designed to select videos by parents for their child. but it was not easy for the parents to select each video. adding this functionality to give channel name and include all videos from youtube channel in their child app was chellanging because youtube does not provide an api that can fetch youtube videos by giving youtube channel name
-Solutions Implemented: the chellenge is overcome by developing a python service that fetch youtube channel using beautiful soap by giving channel name and get channel id. and then invoke youtube api to get youtube videos recursivly by giving channel id. 
-
-Project: notifications service
-Description: 1k notifications per minute, fcm, cassandra, retry, recuring and one-time
-Challenges Faced: the partition key was job_id and the sort key was the next notification trigger time. but due to the fact that same next notification trigger time can exists in multiple partitions made it slower because the query for next jobs to be executed are scanned along with all partitions
-Solutions Implemented: the idea was to make next notification time stamp to make it partition key and make job_id as a sort key. in this way for each time to trigger notifcations, next notifications fetched using notification time stamp and they should be in the same partition.
-
-
-Project: google map scrapper
-Description: scrap stores in google map by giving location and kind of store to be searched. python, beautifulsoap and selenium are used to build the scrapper.
-Challenges Faced: due to dynamic rendering of google map it was not easy to fetch records using beautifulsoap because it gets the webpage data and it can be parsed. but the required content is rendered on the google map was after the initial render which make beautiful soap limited.
-Solutions Implemented: selenium is used to fetch metadata for the stores by opening the browser and wait for the complete rendering. and by iterating this metadata beautifulsoap is used to fetch each store details e.g. address, stars, phone, phots etc
-
-
 Project: techpurview
 Description: 
 Challenges Faced: 
@@ -252,8 +186,9 @@ Solutions Implemented:
 
 ##  Projects
 
-<img src="https://i.ytimg.com/vi/7ZyDbpt-7p4/maxresdefault.jpg" />
-
+<div id="nitro-img" align="center">
+  <img src="https://i.ytimg.com/vi/7ZyDbpt-7p4/maxresdefault.jpg" />
+</div>
 
 ### Nitro
 
@@ -271,8 +206,16 @@ Solutions Implemented:
   1. Implemented query optimization techniques and indexing to improve DynamoDB performance.
   2. Implemented Redis cache to store frequently accessed assets and implemented asset refreshing to fetch the latest assets if not already cached.
 
+- **[site](https://www.nitroleague.com/)**
+
+
 
 ### TechPurview
+
+<div id="techpurview-img" align="center">
+  <img width="1024" alt="techpurview" src="https://github.com/khqnn/khqnn/assets/56000386/41c0c3d3-4803-451e-9df9-8acb20fd2908">
+</div>
+
 - **Description**  
   TechPurview is a society management system built with a Node.js backend and PostgreSQL database. The frontend is developed using Next.js, and the application is deployed on AWS EC2 instances using Docker containers.enhancements.
 
@@ -285,7 +228,16 @@ Solutions Implemented:
 - **Solutions Implemented**  
   Implemented the singleton design pattern to ensure that only one instance of the database connection is initiated and served for all requests. This optimized resource usage and improved overall system performance.
 
+- **[site](https://biz.techpurview.co/)**
+
+
 ### Tossdown
+
+<div id="tossdown-img" align="center">
+  <img width="1024" alt="tossdown" src="https://github.com/khqnn/khqnn/assets/56000386/10c4665a-97e4-46b8-8f0d-171f17c6b737">
+</div>
+
+
 - **Description**  
   Tossdown is a multivendor ecommerce engine developed using Node.js, CodeIgniter (PHP framework), and MySQL database. The backend is primarily implemented in Node.js, while certain functionalities are handled by serverless Lambda functions.
 
@@ -296,12 +248,21 @@ Solutions Implemented:
   1. Slow performance of certain endpoints, impacting user experience and system efficiency.
   2. Redundant search results affecting search accuracy and relevance.
 
+<!-- include customized products query to reterieve relevent data using graphql -->
+
 - **Solutions Implemented**  
   1. Identified endpoints with poor performance and analyzed database queries and code execution. Optimized MySQL queries using the "EXPLAIN" keyword to identify bottlenecks and removed unnecessary iterations to improve query efficiency.
   2. Implemented a solution to periodically move data from MySQL to Elasticsearch, ensuring that product data is indexed and searchable with full-text search capabilities. This approach improved search accuracy and reduced redundant search results.
 
+- **[site](https://tossdown.com/)**
+
 
 ### Alpolink
+
+<div id="tossdown-img" align="center">
+  <img width="1024" alt="alpolink" src="https://github.com/khqnn/khqnn/assets/56000386/b1682850-9cb2-4586-af01-6949c5f654e3">
+</div>
+
 - **Description**  
   Alpolink is a platform for selling exam dumps, developed using PHP and the CodeIgniter framework, with MySQL as the database management system.
 
@@ -314,13 +275,20 @@ Solutions Implemented:
 - **Solutions Implemented**  
   Implemented a unified backend architecture where a single backend serves multiple websites. This approach reduced complexity by consolidating codebases and databases, allowing for easier maintenance and scalability. Each site is now served by the same backend, streamlining operations and improving efficiency.
 
+- **[site](https://www.certificationsbuzz.com/)**
 
-### Aangan
+
+### Aanganpk
+
+<div id="aangan-img" align="center">
+  <img width="1024" alt="aangan" src="https://github.com/khqnn/khqnn/assets/56000386/6b2bc488-3e4b-4a6a-9b4e-efa61e9d2c4a">
+</div>
+
 - **Description**  
-  Aangan is a multivendor ecommerce platform specializing in Pakistani women's handcrafted items. The platform is built using WordPress with WooCommerce plugin, leveraging PHP for customizations and extensions.
+  Aanganpk is a multivendor ecommerce platform specializing in Pakistani women's handcrafted items. The platform is built using WordPress with WooCommerce plugin, leveraging PHP for customizations and extensions.
 
 - **Role and Responsibilities**  
-  As a senior software engineer for Aangan, my responsibilities included addressing platform limitations and customizing functionalities to meet business requirements.
+  As a senior software engineer for Aanganpk, my responsibilities included addressing platform limitations and customizing functionalities to meet business requirements.
 
 - **Challenges Faced**  
   Lack of reporting capabilities from the WooCommerce WordPress plugin, hindering the organization's ability to generate essential reports for business analysis and decision-making.
@@ -328,13 +296,16 @@ Solutions Implemented:
 - **Solutions Implemented**  
   Updated the WooCommerce plugin code to retrieve and generate custom reports tailored to the organization's specific needs. This involved modifying the plugin codebase to extract and present relevant data in a format conducive to business insights and analysis.
 
+- **[site](https://kaarvan.com.pk/portfolio-item/aanganpk-com/)**
+
+
 
 ### Information Retrieval System
 - **Description**  
   The Information Retrieval System is designed to retrieve relevant documents from a corpora using machine learning techniques. It utilizes Support Vector Machine (SVM) algorithms for classification and is implemented in Python within Jupyter Notebook environment. Data is stored and managed in a Cassandra database.
 
 - **Role and Responsibilities**  
-   As a senior software engineer for the Information Retrieval System project, my responsibilities included designing and implementing machine learning algorithms for document classification and retrieval.
+  As the sole architect and developer of the Information Retrieval System, I assumed complete ownership of all project aspects. My role involved the design and implementation of sophisticated machine learning algorithms tailored for document classification and retrieval. This project epitomizes my capacity to conceive, execute, and refine complex technical solutions independently.
 
 - **Challenges Faced**  
   Document and query indexing posed significant challenges in organizing and efficiently retrieving information from the corpora.
@@ -362,7 +333,7 @@ Solutions Implemented:
   Stealth Addresses is a cryptographic project focused on generating secure and private addresses for transactions. It utilizes the x25519 algorithm for shared secret generation and the ed25519 algorithm for signature generation and verification.
 
 - **Role and Responsibilities**  
-  As a senior software engineer for the Stealth Addresses project, my responsibilities included implementing and optimizing the cryptographic functionalities, ensuring security and efficiency.
+  As the sole proprietor and developer of the Stealth Address Library project, I assumed full ownership and accountability throughout its lifecycle. Responsibilities encompassed every aspect, from conceptualization and design to implementation and refinement. This project epitomizes my capacity to initiate, execute, and deliver complex technical initiatives independently.
 
 - **Challenges Faced**  
   Integrating the x25519 and ed25519 algorithms posed challenges due to their different purposes and implementations.
@@ -404,7 +375,7 @@ Solutions Implemented:
   KidSafe is an application designed to provide a safe environment for children to watch YouTube videos. It utilizes the YouTube API to curate a selection of kid-friendly content.
 
 - **Role and Responsibilities**  
-   As a senior software engineer for the KidSafe project, my responsibilities included implementing features, integrating APIs, and ensuring child safety and usability.
+  As a senior software engineer for the KidSafe project, my responsibilities included implementing features, integrating APIs, and ensuring child safety and usability.
 
 - **Challenges Faced**  
   Initially, the app was designed to allow parents to manually select videos for their children, but this approach proved cumbersome. Integrating functionality to automatically include all videos from a YouTube channel posed a challenge, as the YouTube API does not provide direct access to fetch videos by channel name.
@@ -418,7 +389,7 @@ Solutions Implemented:
   The Notifications Service is designed to deliver up to 1,000 notifications per minute efficiently. It utilizes Firebase Cloud Messaging (FCM) for message delivery, Cassandra for data storage, and supports features such as retry mechanisms and recurring/one-time notifications.
 
 - **Role and Responsibilities**  
-   As a senior software engineer for the Notifications Service project, my responsibilities included architecting the system, optimizing performance, and ensuring reliable delivery of notifications.
+  As a senior software engineer for the Notifications Service project, my responsibilities included architecting the system, optimizing performance, and ensuring reliable delivery of notifications.
 
 - **Challenges Faced**  
   The partition key was set as the job_id, and the sort key was the next notification trigger time. However, the presence of the same next notification trigger time in multiple partitions led to slower query performance, as queries for next jobs to be executed were scanned across all partitions.
@@ -433,13 +404,12 @@ Solutions Implemented:
   The Google Map Scraper is a tool designed to extract information about stores from Google Maps based on location and store type. It is built using Python, with Beautiful Soup and Selenium utilized for web scraping.
 
 - **Role and Responsibilities**  
-   As a senior software engineer for the Google Map Scraper project, my responsibilities included designing the scraping process, integrating web scraping libraries, and optimizing data extraction.
+  As the sole creator and developer of the Google Map Scraper, I orchestrated all facets of the project, from conceptualization to implementation. My responsibilities encompassed designing the scraping process, integrating essential web scraping libraries, and fine-tuning data extraction mechanisms. This project underscores my adeptness in independently driving and delivering complex technical solutions.
 
 - **Challenges Faced**  
   The dynamic rendering of Google Maps posed challenges for web scraping, as Beautiful Soup could not access dynamically loaded content.
 
 - **Solutions Implemented**  
   To overcome the limitation of Beautiful Soup, Selenium was employed to open a browser and wait for the complete rendering of the Google Maps webpage. Once the page was fully loaded, metadata for the stores (such as location and store type) was extracted using Selenium. Subsequently, Beautiful Soup was utilized to iterate through the metadata and extract detailed information for each store, including address, star ratings, phone numbers, and photos. This combined approach ensured comprehensive data extraction from Google Maps despite the dynamic rendering challenges.
-
 
 
