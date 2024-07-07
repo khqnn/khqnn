@@ -202,12 +202,18 @@ Solutions Implemented:
   As the lead software engineer, my responsibilities included designing the backend architecture, implementing new features, and providing support for existing features.
 
 - **Challenges Faced**  
-  1. Slow performance due to poor queries of DynamoDB.
-  2. Poor performance of asset retrieval from the blockchain.
+  1. ***Slow Query Performance with Dynamodb***  
+  <b>Challenge: </b> Initial queries to DynamoDB were slow, impacting overall application performance.  
+  <b>Solution: </b> Conducted a comprehensive analysis of the query patterns and identified inefficient scan operations. I then restructured the data model to better align with access patterns, created composite indexes to support complex queries, and optimized the use of partition keys to evenly distribute the data load. Implemented batch operations to reduce the number of read requests and improve throughput.
 
-- **Solutions Implemented**  
-  1. Implemented query optimization techniques and indexing to improve DynamoDB performance.
-  2. Implemented Redis cache to store frequently accessed assets and implemented asset refreshing to fetch the latest assets if not already cached.
+  2. ***High Latency in Asset Retrieval from the Blockchain***  
+     <b>Challenge: </b> Retrieving assets from the blockchain was slow, causing delays in game interactions.  
+     <b>Solution: </b> Implemented a caching layer using Redis to store frequently accessed assets, significantly reducing retrieval times. Additionally, I set up asynchronous processes to prefetch and update the cache with the latest assets, ensuring that the most current data was available with minimal delay. Employed background jobs using AWS Lambda functions to handle periodic asset updates.
+
+  3. ***Scalability Issues with Backend Services***  
+     <b>Challenge: </b> The backend services experienced performance bottlenecks under high user load.  
+     <b>Solution: </b>  Designed and implemented a microservices architecture to distribute the load across multiple services. Used Docker containers to isolate and scale services independently. Implemented auto-scaling groups on AWS EC2 instances to dynamically adjust resources based on traffic. Enhanced inter-service communication using AWS SQS to manage message queues and ensure reliable data exchange.
+  
 
 - **[site](https://www.nitroleague.com/)**
 
