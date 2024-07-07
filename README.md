@@ -72,7 +72,7 @@ Here are some ideas to get you started:
 
 ## 💻 Technical Skills
 - **Languages:** JavaScript, TypeScript, SQL, Python, Java
-- **Frameworks:** Node, Express, React
+- **Frameworks:** Node, ExpressJs, NestJs, ReactJs
 - **Technologies:** AWS, Docker, GraphQL
 - **Databases:** MySQL, Postgres, MongoDB, DynamoDB, Apache Cassandra
 
@@ -84,7 +84,7 @@ Here are some ideas to get you started:
 - **Project Management:** Jira, Asana
 - **Web Servers:** Nginx
 - **Monitoring:** Newrelic, CloudWatch
-- **Other:** Sonar, Memcache
+- **Other:** Sonar, Memcache, Redis
 
 ## 📜 Certificates
 - **Data Engineer Certificate | Mangtas 2023**
