@@ -269,15 +269,26 @@ Solutions Implemented:
 - **Role and Responsibilities**  
   As a senior software engineer on the Tossdown project, my responsibilities included optimizing performance, analyzing database queries, and implementing search functionalities.
 
-- **Challenges Faced**  
-  1. Slow performance of certain endpoints, impacting user experience and system efficiency.
-  2. Redundant search results affecting search accuracy and relevance.
-
-<!-- include customized products query to reterieve relevent data using graphql -->
-
-- **Solutions Implemented**  
-  1. Identified endpoints with poor performance and analyzed database queries and code execution. Optimized MySQL queries using the "EXPLAIN" keyword to identify bottlenecks and removed unnecessary iterations to improve query efficiency.
-  2. Implemented a solution to periodically move data from MySQL to Elasticsearch, ensuring that product data is indexed and searchable with full-text search capabilities. This approach improved search accuracy and reduced redundant search results.
+- **Challenges Faced**
+  1. ***Slow Performance of Certain Endpoints***  
+     <b>Challenge: </b>Certain API endpoints were slow, impacting user experience and overall system efficiency.  
+     <b>Solution: </b> Identified endpoints with poor performance by analyzing database queries and code execution. Used the "EXPLAIN" keyword to understand query execution plans and identify bottlenecks. Optimized MySQL queries by adding appropriate indexes, refactoring complex joins, and removing unnecessary iterations. Implemented caching strategies using Redis to store frequently accessed data, reducing the need for repetitive database queries.
+     
+  2. ***Redundant Search Results Affecting Search Accuracy and Relevance***  
+     <b>Challenge: </b>Search results were often redundant and not accurately relevant to user queries.  
+     <b>Solution: </b>Implemented a solution to periodically move data from MySQL to Elasticsearch, ensuring that product data is indexed and searchable with full-text search capabilities. This approach improved search accuracy and reduced redundant search results. Additionally, fine-tuned the Elasticsearch queries to include filtering, boosting, and sorting to enhance search relevance and user satisfaction.
+     
+  3. ***Handling High Traffic Loads and Ensuring Scalability***  
+     <b>Challenge: </b>The system needed to handle high traffic loads, especially during peak times, without degrading performance.  
+     <b>Solution: </b>Designed and implemented a scalable architecture using AWS services. Deployed backend services on AWS EC2 instances with auto-scaling groups to automatically adjust the number of instances based on traffic. Used AWS Lambda functions for certain functionalities to ensure efficient and scalable execution of tasks. Implemented a load balancer to distribute incoming requests evenly across instances, ensuring high availability and reliability.
+     
+  4. ***Maintaining Data Consistency Between MySQL and Elasticsearch***  
+     <b>Challenge: </b>Ensuring that data remains consistent between MySQL and Elasticsearch during updates and deletions.  
+     <b>Solution: </b>Implemented a change data capture (CDC) mechanism to track changes in the MySQL database and update Elasticsearch indices in real-time. Used AWS Lambda functions to process database change events and synchronize data between MySQL and Elasticsearch. This ensured that search results were always up-to-date and consistent with the database.
+     
+  5. ***Optimizing Code for Serverless Functions***  
+     <b>Challenge: </b>Certain functionalities handled by serverless Lambda functions needed to be optimized for performance and cost-efficiency.  
+     <b>Solution: </b>Refactored the code for serverless functions to minimize cold start latency and optimize execution time. Used environment variables and AWS Secrets Manager to manage configuration and secrets securely. Implemented monitoring and logging using AWS CloudWatch to track performance and identify areas for improvement. Fine-tuned resource allocation (memory and timeout settings) to balance cost and performance.
 
 - **[site](https://tossdown.com/)**
 
