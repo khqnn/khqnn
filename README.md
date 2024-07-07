@@ -229,13 +229,29 @@ Solutions Implemented:
   TechPurview is a society management system built with a Node.js backend and PostgreSQL database. The frontend is developed using Next.js, and the application is deployed on AWS EC2 instances using Docker containers.enhancements.
 
 - **Role and Responsibilities**  
-  As the lead software engineer, my responsibilities included architecting the backend infrastructure, implementing database connectivity, and coordinating with the frontend team for UI/UX enhancements.
-
-- **Challenges Faced**  
-  Managing multiple connections to the database, leading to potential performance issues and resource wastage.
-
-- **Solutions Implemented**  
-  Implemented the singleton design pattern to ensure that only one instance of the database connection is initiated and served for all requests. This optimized resource usage and improved overall system performance.
+  As the lead software engineer, my responsibilites including the architecting the backend infrastructure to develop, integrate, deploy and delivering the complete proejct.
+<!--  As the lead software engineer, my responsibilities included architecting the backend infrastructure, implementing database connectivity, and coordinating with the frontend team for UI/UX enhancements. -->
+  
+- **Challenges Faced**
+  1. ***Managing Multiple Connections to the Database***  
+     <b>Challenge: </b>Handling multiple connections to the PostgreSQL database led to potential performance issues and resource wastage.  
+     <b>Solution: </b>Implemented the singleton design pattern to ensure that only one instance of the database connection is initiated and served for all requests. This optimized resource usage and improved overall system performance.
+     
+  2. ***Ensuring Data Consistency and Integrity***  
+     <b>Challenge: </b>Maintaining data consistency and integrity across multiple transactions was challenging, especially with concurrent database operations.  
+     <b>Solution: </b>Implemented transaction management using PostgreSQL’s ACID properties to ensure data consistency and integrity. Used connection pooling to manage concurrent connections efficiently and avoid deadlocks. Applied proper indexing and optimized SQL queries to enhance database performance.
+     
+  3. ***Optimizing Query Performance***  
+     <b>Challenge: </b>Some complex queries were slow, impacting the overall responsiveness of the system.  
+     <b>Solution: </b>Conducted query performance analysis and optimization. Created necessary indexes to speed up frequently used queries. Refactored and optimized complex queries to reduce execution time. Implemented caching strategies using Redis to store the results of frequently accessed data, thereby reducing database load.
+     
+  4. ***Handling Session Management Securely***  
+     <b>Challenge: </b>Managing user sessions securely to prevent unauthorized access and ensure data privacy.  
+     <b>Solution: </b> Implemented secure session management using JWT (JSON Web Tokens) for authentication. Ensured that JWTs were securely signed and stored. Used HTTPS for all communication to protect data in transit. Regularly reviewed and updated security protocols to mitigate potential vulnerabilities.
+     
+  5. ***Coordinating Backend and Frontend Development***  
+     <b>Challenge: </b>Ensuring seamless integration between the backend and frontend components, and maintaining consistent data flow.  
+     <b>Solution: </b>Established clear communication protocols and API documentation to ensure that the backend services met the frontend requirements. Used tools like Swagger for API documentation and Postman for testing. Conducted regular integration testing and code reviews to ensure smooth and efficient collaboration between the backend and frontend teams.
 
 - **[site](https://biz.techpurview.co/)**
 
