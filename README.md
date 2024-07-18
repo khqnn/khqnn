@@ -55,7 +55,7 @@ Here are some ideas to get you started:
 
 <!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=khqnn&hide=contribs,prs) -->
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khqnn&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=khqnn&layout=compact&theme=vision-friendly-dark&size_weight=0.5&count_weight=0.5)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ---
