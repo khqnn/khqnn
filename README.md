@@ -222,7 +222,7 @@ Solutions Implemented:
 ### TechPurview
 
 <div id="techpurview-img" align="center">
-  <img width="1024" alt="techpurview" src="https://github.com/khqnn/khqnn/assets/56000386/41c0c3d3-4803-451e-9df9-8acb20fd2908">
+  <img width="1785" alt="303564370-41c0c3d3-4803-451e-9df9-8acb20fd2908" src="https://github.com/user-attachments/assets/0cd63094-8ecd-4ccb-bae3-b40439483033">
 </div>
 
 - **Description**  
@@ -259,7 +259,7 @@ Solutions Implemented:
 ### Tossdown
 
 <div id="tossdown-img" align="center">
-  <img width="1024" alt="tossdown" src="https://github.com/khqnn/khqnn/assets/56000386/10c4665a-97e4-46b8-8f0d-171f17c6b737">
+  <img width="1181" alt="303564782-10c4665a-97e4-46b8-8f0d-171f17c6b737" src="https://github.com/user-attachments/assets/dda63277-4722-4762-96b0-0d0831c70253">
 </div>
 
 
@@ -296,7 +296,7 @@ Solutions Implemented:
 ### Alpolink
 
 <div id="tossdown-img" align="center">
-  <img width="1024" alt="alpolink" src="https://github.com/khqnn/khqnn/assets/56000386/b1682850-9cb2-4586-af01-6949c5f654e3">
+  <img width="1781" alt="303568944-b1682850-9cb2-4586-af01-6949c5f654e3" src="https://github.com/user-attachments/assets/42939368-e76e-4c2a-85ff-a5d4aa9fb98d">
 </div>
 
 - **Description**  
@@ -334,7 +334,7 @@ Solutions Implemented:
 ### Aanganpk
 
 <div id="aangan-img" align="center">
-  <img width="1024" alt="aangan" src="https://github.com/khqnn/khqnn/assets/56000386/6b2bc488-3e4b-4a6a-9b4e-efa61e9d2c4a">
+  <img width="1349" alt="303569709-6b2bc488-3e4b-4a6a-9b4e-efa61e9d2c4a" src="https://github.com/user-attachments/assets/7372d9ad-0531-40dd-87b1-925a180e7013">
 </div>
 
 - **Description**  
