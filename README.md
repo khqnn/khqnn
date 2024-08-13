@@ -218,6 +218,30 @@ Solutions Implemented:
 - **[site](https://www.nitroleague.com/)**
 
 
+### WhatsApp Web Nativefier Linux App
+
+<div id="techpurview-img" align="center">
+  <img width="1785" alt="303564370-41c0c3d3-4803-451e-9df9-8acb20fd2908" src="https://github.com/user-attachments/assets/d2fd9347-181d-4397-abea-2e69c834c343">
+</div>
+
+- **Description**  
+  WhatsApp Web Nativefier Linux App is a straightforward application that utilizes Nativefier to package WhatsApp Web as a native desktop application for Linux. By wrapping WhatsApp Web in a dedicated browser window with Nativefier, the app provides a seamless, standalone experience on Linux, mimicking a native application’s look and feel while maintaining the web-based functionality of WhatsApp.
+
+- **Role and Responsibilities**  
+  As the primary developer, my responsibilities included setting up and configuring Nativefier to create a dedicated application window for WhatsApp Web. I managed the customization of the app’s appearance and functionality to ensure an optimal user experience. This included configuring the app settings, testing across different Linux distributions, and addressing any compatibility issues.
+  
+- **Challenges Faced**  
+  1. ***Customization of Nativefier Output***  
+  <b>Challenge: </b> Achieving the desired appearance and functionality of the application through Nativefier’s default settings.  
+  <b>Solution: </b> Customized the Nativefier build by modifying configuration options to adjust the window size, icon, and other visual aspects. Implemented additional scripts to handle specific user interface preferences and ensured that the application adhered to the visual standards expected from a native desktop app.
+
+  2. ***Performance Optimization***  
+     <b>Challenge: </b> Maintaining responsive performance while running WhatsApp Web within a Nativefier-generated application.   
+     <b>Solution: </b> Implemented a caching layer using Redis to store frequently accessed assets, significantly reducing retrieval times. Additionally, I set up asynchronous processes to prefetch and update the cache with the latest assets, ensuring that the most current data was available with minimal delay. Employed background jobs using AWS Lambda functions to handle periodic asset updates.
+
+- **[site](https://github.com/khqnn/linux-whatsapp)**
+
+
 
 ### TechPurview
 
