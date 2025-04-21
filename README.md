@@ -189,11 +189,49 @@ Solutions Implemented:
 
 ##  Projects
 
+
+### DigiCelcom
+
+<div id="nitro-img" align="center">
+  <img src="https://github.com/user-attachments/assets/98a6e4fb-e4aa-42c7-82de-a21a2ed6873b" />
+</div>
+
+- **Description**  
+  Developed a scalable backend system for a telecom mobile application using Node.js, designed to handle high-traffic API requests and integrate with multiple third-party services. The project involved building a monorepo structure using Nx Console to manage modular services, ensuring efficient code sharing and dependency management. Key features included user authentication/authorization, real-time data transformation, email notifications, PDF report generation, and secure cloud deployment. Technologies leveraged included Redis, MySQL, Docker, AWS S3, Puppeteer, and SendGrid, with a focus on performance, security, and maintainability.
+
+  
+- **Role and Responsibilities**  
+  * Designed and developed RESTful APIs to support frontend functionalities, including user profile management, billing, and telecom service customization.
+  * Integrated with third-party APIs (e.g., payment gateways, telecom infrastructure providers) to fetch, transform, and synchronize data.
+  * Implemented JWT-based authentication and Passport.js middleware to secure endpoints and manage role-based access control.
+  * Wrote comprehensive test suites using Mocha to ensure API reliability and adherence to business logic.
+  * Utilized the dependency injection design pattern to decouple services, improving code testability and scalability.
+  * Orchestrated Docker containers for consistent deployment across development, staging, and production environments.
+  * Built an email notification system using SendGrid and automated PDF generation (via Puppeteer) for user invoices and service reports.
+  * Managed cloud storage integration with AWS S3 for secure document and asset storage.
+  * Collaborated on a monorepo architecture to streamline development workflows and reduce redundancy across microservices.
+
+  
+- **Challenges Faced**  
+  1. <b>Challenge: </b> Frequent delays and timeouts when interacting with external APIs affected user experience.  
+  <b>Solution: </b>  Implemented Redis caching for frequently accessed data and optimized parallel API calls to reduce response times by 40%.
+
+  2. <b>Challenge: </b> Testing interdependent services in a monorepo led to flaky tests and false positives.  
+     <b>Solution: </b> Isolated test environments using Mocha hooks and Nx Console’s dependency graph to run targeted tests, ensuring reliability.
+
+  3. <b>Challenge: </b> Generating PDFs from dynamic HTML templates caused server bottlenecks.   
+     <b>Solution: </b>  Offloaded PDF rendering to a dedicated service using Puppeteer and optimized HTML templates with precompiled layouts.
+  
+
+
+---
+
+
+### Nitro
+
 <div id="nitro-img" align="center">
   <img src="https://i.ytimg.com/vi/7ZyDbpt-7p4/maxresdefault.jpg" />
 </div>
-
-### Nitro
 
 - **Description**  
   Nitro is a metaverse game project integrating blockchain technology. It features a Node.js backend with TypeScript and DynamoDB for data storage. The frontend is developed using React.js, and deployment is managed using Docker containers on AWS EC2 instances and Lambda functions.
@@ -217,6 +255,7 @@ Solutions Implemented:
 
 - **[site](https://www.nitroleague.com/)**
 
+---
 
 ### WhatsApp Web Nativefier Linux App
 
@@ -241,7 +280,7 @@ Solutions Implemented:
 
 - **[site](https://github.com/khqnn/linux-whatsapp)**
 
-
+---
 
 ### TechPurview
 
@@ -279,6 +318,7 @@ Solutions Implemented:
 
 - **[site](https://biz.techpurview.co/)**
 
+---
 
 ### Tossdown
 
@@ -316,6 +356,7 @@ Solutions Implemented:
 
 - **[site](https://tossdown.com/)**
 
+---
 
 ### Alpolink
 
@@ -355,6 +396,8 @@ Solutions Implemented:
 - **[site](https://www.certificationsbuzz.com/)**
 
 
+---
+
 ### Aanganpk
 
 <div id="aangan-img" align="center">
@@ -384,7 +427,7 @@ Solutions Implemented:
 
 - **[site](https://kaarvan.com.pk/portfolio-item/aanganpk-com/)**
 
-
+---
 
 ### Information Retrieval System
 - **Description**  
@@ -414,7 +457,8 @@ Solutions Implemented:
      <b>Challenge: </b> Ensuring the system can scale to handle increasing volumes of data and user queries without degradation in performance.  
      <b>Solution: </b> Leveraged the distributed architecture of Cassandra to scale horizontally, adding more nodes as needed to handle increased load. Implemented load balancing techniques to distribute user queries evenly across the system, preventing bottlenecks and ensuring consistent performance. Continuously monitored system performance and made necessary adjustments to maintain efficiency.
 
-  
+
+---
 
 ### Clause Generation
 - **Description**  
@@ -444,7 +488,8 @@ Solutions Implemented:
      <b>Challenge: </b> Developing and testing the clause generation pipeline required significant computational resources, which could be challenging to manage, especially during local development.  
      <b>Solution: </b> Adopted a hybrid development environment where resource-intensive tasks were offloaded to cloud-based EC2 instances, while local development and testing utilized optimized, quantized models. Implemented a robust scheduling and resource management system to ensure efficient utilization of computational resources, minimizing downtime and maximizing productivity.
 
-  
+
+---
 
 ### Stealth Address Library
 - **Description**  
@@ -466,7 +511,8 @@ Solutions Implemented:
      <b>Challenge: </b> Creating a custom implementation of the ed25519 algorithm required a comprehensive understanding of its specifications and intricate details, as well as ensuring it adhered to security standards.  
      <b>Solution: </b> Followed the RFC8032 specifications meticulously to develop a custom core implementation of ed25519. This ensured that the algorithm was implemented correctly and securely, avoiding potential pitfalls associated with standard libraries.
 
-  
+
+---
 
 ### Products Pair
 - **Description**  
@@ -492,7 +538,8 @@ Solutions Implemented:
      <b>Challenge: </b> Ensuring that the system can handle real-time updates and maintain low latency for probability queries was essential for providing timely and accurate predictions.  
      <b>Solution: </b> Implemented incremental update mechanisms that allow the system to update probabilities of product pairs in real-time based on new transactional data without requiring a complete recalculation. Utilized caching strategies to store frequently accessed probabilities in memory, reducing the need for repetitive database queries and further lowering latency.
 
-  
+
+---
 
 ### Reports management system
 - **Description**  
@@ -522,7 +569,8 @@ Solutions Implemented:
      <b>Challenge: </b> Given the multitenant nature of the system, ensuring data security and privacy for each client's data was paramount.  
      <b>Solution: </b> Implemented robust access control mechanisms to ensure that only authorized users can access and generate reports for their respective clients.
 
-  
+
+---
 
 ### KidSafe
 - **Description**  
@@ -552,7 +600,8 @@ Solutions Implemented:
      <b>Challenge: </b> Ensuring that the app's interface remained user-friendly and intuitive despite the added complexity of automated content fetching.  
      <b>Solution: </b> Focused on designing a clean and intuitive user interface that simplifies navigation and content discovery for both parents and children. Ensured seamless integration of the new automated features into the existing interface, providing clear instructions and feedback to users throughout the process.
 
-  
+
+ ---
 
 ### Notifications Service
 - **Description**  
@@ -587,7 +636,7 @@ Solutions Implemented:
      <b>Solution: </b> Optimized data access patterns to reduce latency in retrieving and processing notifications. The redesigned data model played a crucial role in achieving this by localizing relevant data. Implemented real-time processing techniques to ensure that notifications were delivered at the correct times, leveraging efficient scheduling and immediate processing upon trigger events.
 
   
-
+---
 
 ### Google Map Scraper
 
