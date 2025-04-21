@@ -190,6 +190,47 @@ Solutions Implemented:
 ##  Projects
 
 
+### Competitor's app
+
+
+
+- **Description**  
+  Developed a business intelligence web application for a retail organization to analyze and compare sales performance across brands, stores, and regions. The application enables managers to track historical sales data (from previous years) and input current monthly/yearly sales figures, providing actionable insights into growth trends, competitor benchmarking, and store-level performance.
+
+  
+- **Role and Responsibilities**  
+  - Designed sequence diagrams to model application workflows and ensure clarity in service interactions.
+  - Structured the application using MVC architecture, separating models (SQLAlchemy), controllers (business logic), and views (API endpoints).
+  - Built RESTful APIs to handle CRUD operations, user authentication, and data processing tasks.
+  - Implemented JWT authentication and authorization to secure endpoints and manage user roles.
+  - Processed and transformed large datasets using pandas DataFrames for analytics and reporting.
+  - Integrated caching mechanisms (e.g., Redis) to store frequently accessed data, reducing database load by 30%.
+  - Utilized SQLAlchemy ORM to define models, execute complex queries, and ensure database-agnostic operations.
+  - Enforced data consistency through transaction management, database constraints, and atomic operations.
+  - Developed isolated controllers to decouple business logic from data access layers, improving code testability.
+  - Containerized the application using Docker and orchestrated multi-container environments for development and production.
+  - Wrote unit and integration tests using pytest to achieve 95% code coverage and validate API reliability.
+  - Deployed the application with WSGI (Gunicorn) and Nginx to ensure high performance under load.
+
+  
+- **Challenges Faced**  
+  1. ***Ensuring Data Consistency Across Complex Workflows***  
+  <b>Challenge: </b> Concurrent data updates and distributed transactions risked inconsistencies.  
+  <b>Solution: </b> Implemented database transactions with SQLAlchemy’s session management and added retry logic for failed operations.
+
+  2. ***Efficient Processing of Large Datasets***  
+     <b>Challenge: </b> In-memory data processing with DataFrames caused performance bottlenecks.   
+     <b>Solution: </b> Optimized DataFrame operations using chunking, indexing, and lazy loading, reducing memory usage by 25%.
+
+  3. ***Testing Database-Dependent Workflows***  
+     <b>Challenge: </b> Complex database interactions made tests slow and difficult to isolate.    
+     <b>Solution: </b>  Leveraged pytest fixtures to mock SQLAlchemy sessions and create ephemeral test databases.
+  
+
+
+---
+
+
 ### DigiCelcom
 
 <div id="nitro-img" align="center">
@@ -197,29 +238,34 @@ Solutions Implemented:
 </div>
 
 - **Description**  
-  Developed a scalable backend system for a telecom mobile application using Node.js, designed to handle high-traffic API requests and integrate with multiple third-party services. The project involved building a monorepo structure using Nx Console to manage modular services, ensuring efficient code sharing and dependency management. Key features included user authentication/authorization, real-time data transformation, email notifications, PDF report generation, and secure cloud deployment. Technologies leveraged included Redis, MySQL, Docker, AWS S3, Puppeteer, and SendGrid, with a focus on performance, security, and maintainability.
+  Developed a high-performance backend system for a telecom company’s mobile application, enabling users to manage telecom services seamlessly. The application supported critical functionalities such as SIM card ordering, prepaid/postpaid package purchases, wallet-based transactions, subscription management (add-ons, unsubscribing), and real-time due deductions. Designed to handle high concurrent traffic, the system integrated with payment gateways, telecom infrastructure APIs, and notification services while ensuring security, scalability, and reliability. Built using Node.js in a monorepo (managed via Nx Console), it employed Docker for containerization, Redis for caching, and MySQL for transactional data storage. Key features included PDF invoice generation, email notifications, and role-based access control.
 
   
 - **Role and Responsibilities**  
-  * Designed and developed RESTful APIs to support frontend functionalities, including user profile management, billing, and telecom service customization.
-  * Integrated with third-party APIs (e.g., payment gateways, telecom infrastructure providers) to fetch, transform, and synchronize data.
-  * Implemented JWT-based authentication and Passport.js middleware to secure endpoints and manage role-based access control.
-  * Wrote comprehensive test suites using Mocha to ensure API reliability and adherence to business logic.
-  * Utilized the dependency injection design pattern to decouple services, improving code testability and scalability.
-  * Orchestrated Docker containers for consistent deployment across development, staging, and production environments.
-  * Built an email notification system using SendGrid and automated PDF generation (via Puppeteer) for user invoices and service reports.
-  * Managed cloud storage integration with AWS S3 for secure document and asset storage.
-  * Collaborated on a monorepo architecture to streamline development workflows and reduce redundancy across microservices.
+  - Designed and developed RESTful APIs to support user workflows: SIM ordering, package selection, wallet transactions, and subscription management.
+  - Integrated third-party APIs (e.g., payment gateways, SMS services, telecom provisioning systems) to validate transactions, activate services, and sync user data.
+  - Secured endpoints using JWT-based authentication and Passport.js strategies, enforcing role-based access for users and admin roles.
+  - Implemented the dependency injection design pattern to decouple service logic, enhancing testability and scalability across modules.
+  - Built a modular monorepo with Nx Console to manage shared libraries, utilities, and microservices efficiently.
+  - Developed an email service using SendGrid to notify users about order confirmations, payment receipts, and subscription updates.
+  - Automated PDF invoice generation from HTML templates using Puppeteer, ensuring consistent branding and dynamic data rendering.
+  - Optimized performance using Redis to cache frequently accessed data (e.g., package details, user balances) and rate-limit API requests.
+  - Dockerized services for consistent deployment and orchestrated cloud storage of invoices/assets using AWS S3.
+  - Wrote comprehensive test suites with Mocha to validate API logic, edge cases, and integration workflows.
+
 
   
 - **Challenges Faced**  
-  1. <b>Challenge: </b> Frequent delays and timeouts when interacting with external APIs affected user experience.  
-  <b>Solution: </b>  Implemented Redis caching for frequently accessed data and optimized parallel API calls to reduce response times by 40%.
+  1. ***High Latency in Third-Party API Integrations***
+    <b>Challenge: </b> Frequent delays and timeouts when interacting with external APIs affected user experience.  
+    <b>Solution: </b>  Implemented Redis caching for frequently accessed data and optimized parallel API calls to reduce response times by 40%.
 
-  2. <b>Challenge: </b> Testing interdependent services in a monorepo led to flaky tests and false positives.  
+  2. ***Testing Complex Service Dependencies***
+     <b>Challenge: </b> Testing interdependent services in a monorepo led to flaky tests and false positives.  
      <b>Solution: </b> Isolated test environments using Mocha hooks and Nx Console’s dependency graph to run targeted tests, ensuring reliability.
 
-  3. <b>Challenge: </b> Generating PDFs from dynamic HTML templates caused server bottlenecks.   
+  3. ***Resource-Intensive PDF Generation***
+     <b>Challenge: </b> Generating PDFs from dynamic HTML templates caused server bottlenecks.   
      <b>Solution: </b>  Offloaded PDF rendering to a dedicated service using Puppeteer and optimized HTML templates with precompiled layouts.
   
 
