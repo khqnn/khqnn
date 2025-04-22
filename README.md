@@ -83,21 +83,87 @@ Here are some ideas to get you started:
   - Hotwire Studios
 
 
-## 🛠️ Tools, Technologies, and Techniques
-- **Programming Languages**: Python, JavaScript, TypeScript, PHP, Solidity, SQL, Shell/Bash
-- **Backend**: FastAPI, Flask, Express.js, NestJS, CodeIgniter, WordPress/WooCommerce
-- **Frontend**: Next.js, React.js
-- **ORM/Database**: SQLAlchemy, TypeORM
-- **ML/DL**: Hugging Face Transformers, Pandas, NumPy, PyTorch
-- **AI/ML & Data Tools**: Hugging Face, Elasticsearch, TF-IDF, Apriori Algorithm, Data Cubes/Slices, Web Scraping (Beautiful Soup, Selenium)
-- **Blockchain**: Hardhat, Web3.js, Ethers.js, MetaMask, Solidity
-- **Testing**: pytest, Mocha, Jest, Chai
-- **DevOps & Cloud Tools**: Docker, AWS (EC2, S3, Lambda, API Gateway), Firebase, Bitbucket pipelines, New Relic
-- **Databases & Storage**: SQL(PostgreSQL, MySQL), NoSQL(DynamoDB, MongoDB, Cassandra), Caching(Redis, Memcached), File Storage(AWS S3)
-- **Security & Auth**: JWT, Keycloak, OAuth2, Passport.js, Cryptography (ed25519, x25519)
-- **Version Control:** Git, GitHub, Bitbucket
-- **Project Management:** Jira, Asana
-- **Web Servers:** Nginx
+## 🛠️ Tools & Technologies  
+### Programming Languages  
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0%2B-3178C6?logo=typescript)
+![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php)
+![Solidity](https://img.shields.io/badge/Solidity-0.8%2B-363636?logo=solidity)
+![SQL](https://img.shields.io/badge/SQL-ANSI%20SQL-4479A1?logo=postgresql)
+
+### Frameworks & Libraries  
+![FastAPI](https://img.shields.io/badge/FastAPI-0.85%2B-009688?logo=fastapi)
+![Flask](https://img.shields.io/badge/Flask-2.0%2B-000000?logo=flask)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![Express.js](https://img.shields.io/badge/Express.js-4.18%2B-000000?logo=express)
+![React](https://img.shields.io/badge/React-18%2B-61DAFB?logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-13%2B-000000?logo=nextdotjs)
+![NestJS](https://img.shields.io/badge/NestJS-9.0%2B-E0234E?logo=nestjs)
+
+
+### Databases  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql)
+![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql)
+![MongoDB](https://img.shields.io/badge/MongoDB-6.0%2B-47A248?logo=mongodb)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-NoSQL-4053D6?logo=amazondynamodb)
+![Redis](https://img.shields.io/badge/Redis-7.0%2B-DC382D?logo=redis)
+![Cassandra](https://img.shields.io/badge/Cassandra-4.0%2B-1287B1?logo=apachecassandra)
+
+
+### DevOps & Cloud  
+![Docker](https://img.shields.io/badge/Docker-24.0%2B-2496ED?logo=docker)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-Instance-FF9900?logo=amazonec2)
+![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-569A31?logo=amazons3)
+![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-Functions-FF9900?logo=awslambda)
+![Firebase](https://img.shields.io/badge/Firebase-Cloud-FFCA28?logo=firebase)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?logo=githubactions)
+
+### AI/ML & Data
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-Transformers-FFD21F?logo=huggingface)
+![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-8.0%2B-005571?logo=elasticsearch)
+![Beautiful Soup](https://img.shields.io/badge/Beautiful_Soup-4.0%2B-3D8FC6?logo=python)
+![Selenium](https://img.shields.io/badge/Selenium-4.0%2B-43B02A?logo=selenium)
+
+
+### Blockchain  
+![Hardhat](https://img.shields.io/badge/Hardhat-2.12%2B-FFF100?logo=ethereum)
+![Web3.js](https://img.shields.io/badge/Web3.js-4.0%2B-F16822?logo=web3dotjs)
+![MetaMask](https://img.shields.io/badge/MetaMask-Wallet-F6851B?logo=metamask)
+![Chainlink](https://img.shields.io/badge/Chainlink-VRF-375BD2?logo=chainlink)
+
+
+### Security & Auth
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
+![Keycloak](https://img.shields.io/badge/Keycloak-SSO-2C2C2C?logo=keycloak)
+![OAuth2](https://img.shields.io/badge/OAuth2-2.0-EC1C24?logo=openid)
+![Cryptography](https://img.shields.io/badge/x25519-ed25519-blue?logo=gnuprivacyguard)
+
+
+### Version Control  
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?logo=bitbucket&logoColor=white)
+
+### Project Management  
+![Jira](https://img.shields.io/badge/Jira-0052CC?logo=jirasoftware&logoColor=white)
+![Asana](https://img.shields.io/badge/Asana-FF6361?logo=asana&logoColor=white)  
+
+### Web Servers  
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+
+### Utilities
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-blue)
+![TypeORM](https://img.shields.io/badge/TypeORM-0.3%2B-000000?logo=typescript)
+![Puppeteer](https://img.shields.io/badge/Puppeteer-19.0%2B-40B5A4?logo=puppeteer)
+![SendGrid](https://img.shields.io/badge/SendGrid-Email-00B488?logo=sendgrid)
+
+
+
+
+## Techniques
 - **Architectural Patterns**: MVC, Microservices, Monorepo (Nx Console), Dependency Injection, Decorator Pattern, Chain of Responsibility
 - **Key Techniques**: RESTful API Design, CI/CD Pipelines, Authorization/Authentication, Adversarial Testing, Query Optimization, Transaction Management, Caching Strategies, Parallel Processing, Data Modeling (SQL/NoSQL), Rate Limiting, Synthetic Dataset Creation
 
