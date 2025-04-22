@@ -201,28 +201,81 @@ Solutions Implemented:
 
 
 ## 🧠📚 As an LLM Trainer
-  As an LLM Trainer, I specialize in designing, refining, and aligning large language models (LLMs) for safe, accurate, and context-aware outputs. My work bridges machine learning and software engineering, focusing on training models to solve domain-specific challenges (e.g., code generation, audio/visual understanding) while mitigating risks like harmful outputs or inefficiencies.
+  As an LLM Trainer, I specialize in designing, refining, and aligning large language models (LLMs) for safe, accurate, and context-aware outputs. My work bridges machine learning and software engineering, focusing on training models to solve domain-specific challenges (e.g., code generation, audio/visual understanding) while mitigating risks like harmful outputs or inefficiencies. Refer to the [LLM capabilities](#-llm-capabilities) section.
 
 
 
 ## 📊🧑‍🔬 As a Data Scientist
-  As a Data Scientist, I partner with businesses to identify growth opportunities through machine learning. My work revolves around analyzing existing workflows, designing tailored ML solutions, and ensuring seamless integration of models into production systems—all while balancing technical feasibility, cost efficiency, and business impact.
+  As a Data Scientist, I partner with businesses to identify growth opportunities through machine learning. My work revolves around analyzing existing workflows, designing tailored ML solutions, and ensuring seamless integration of models into production systems—all while balancing technical feasibility, cost efficiency, and business impact. Refer to the [LLM capabilities](#-llm-capabilities) section.
 
 
 
 ## 🧑‍💻 As a Software Engineer
-  As a versatile Full-Stack Software Engineer, I specialize in architecting and delivering high-performance, scalable solutions across diverse domains—from business intelligence platforms and telecom systems to blockchain-integrated metaverse games and AI/ML-driven tools. My expertise spans backend development (Node.js, Python, PHP), RESTful API design, database optimization (SQL, NoSQL), and cloud-native deployment (AWS, Docker). I’ve led end-to-end development of enterprise-grade applications, implementing MVC architectures, securing systems with JWT authentication, and optimizing performance through caching (Redis), parallel processing, and efficient query design. My work emphasizes scalability (microservices, monorepos), reliability (transaction management, CI/CD pipelines), and innovation (blockchain integration, LLM-driven tools), while solving complex challenges like high-concurrency data workflows, third-party API latency, and dynamic system scaling. I bridge technical rigor with business impact, ensuring solutions are both robust and aligned with user needs.
+  As a versatile Full-Stack Software Engineer, I specialize in architecting and delivering high-performance, scalable solutions across diverse domains—from business intelligence platforms and telecom systems to blockchain-integrated metaverse games and AI/ML-driven tools. My expertise spans backend development (Node.js, Python, PHP), RESTful API design, database optimization (SQL, NoSQL), and cloud-native deployment (AWS, Docker). I’ve led end-to-end development of enterprise-grade applications, implementing MVC architectures, securing systems with JWT authentication, and optimizing performance through caching (Redis), parallel processing, and efficient query design. My work emphasizes scalability (microservices, monorepos), reliability (transaction management, CI/CD pipelines), and innovation (blockchain integration, LLM-driven tools), while solving complex challenges like high-concurrency data workflows, third-party API latency, and dynamic system scaling. I bridge technical rigor with business impact, ensuring solutions are both robust and aligned with user needs. Please refer to the [projects](#-projects) section. 
 
 
 
 ## 🔗💻 As a Blockchain Developer
-  As a Blockchain Developer, I design, deploy, and integrate secure smart contracts into scalable systems, bridging decentralized technologies with traditional backend architectures. My work spans building blockchain-powered features for metaverse games (e.g., Nitro League) and maintaining a disciplined focus on continuous learning through challenges like the [100 Days of Blockchain](https://github.com/khqnn/chainlearning) commitment.
+  As a Blockchain Developer, I design, deploy, and integrate secure smart contracts into scalable systems, bridging decentralized technologies with traditional backend architectures. My work spans building blockchain-powered features for metaverse games (e.g., Nitro League) and maintaining a disciplined focus on continuous learning through challenges like the [100 Days of Blockchain](https://github.com/khqnn/chainlearning) commitment. Also, please refere to the [Nitro League](#nitro) and [Stealth Address Library](#-packageslibraries) project and Python package for [stealth addresses](#-packageslibraries)
+
+
+
+## 💬🧠 LLM Capabilities
+
+
+### Python Code Generation & Validation LLM
+  *Developed a specialized LLM precision-tuned to generate, analyze, and correct Python code in response to user queries. As an LLM Trainer, I evaluated model outputs for accuracy, security, and efficiency, authored gold-standard code responses, and iteratively refined training datasets. Key contributions included identifying edge cases (e.g., recursion errors, insecure dependencies), implementing adversarial testing, and aligning outputs with real-world programming challenges to ensure robust, error-free code generation. The model now assists developers in writing secure, optimized Python scripts across diverse use cases.*
+
+
+### JavaScript Code Generation & Validation LLM
+  *Trained an LLM to generate, debug, and optimize JavaScript code for diverse use cases (web apps, APIs, Node.js). As an LLM Trainer, I curated datasets of real-world JS scenarios, authored high-quality code samples, and iteratively refined model outputs for accuracy and security. Key contributions included identifying and correcting edge cases (e.g., async/await pitfalls, callback hell), mitigating vulnerabilities (XSS, prototype pollution), and optimizing code efficiency (memory leaks, event-loop bottlenecks). The model now delivers production-ready JavaScript solutions aligned with modern best practices.*
+
+
+### Multimodal Adversarial Testing for LLM Security
+  *Spearheaded adversarial testing of a multimodal LLM to identify vulnerabilities in code generation triggered by image-based prompts. As an AI Security Specialist, I designed adversarial attacks by crafting deceptive prompts (e.g., generating malicious code snippets, unethical coding practices) from images, stress-testing the model’s alignment safeguards. Responsibilities included curating image-to-prompt attack vectors, analyzing harmful outputs (malware, SQL injection), and refining SFT datasets to mitigate risks. The project hardened the model’s resilience against coding-domain exploits, ensuring ethical and secure code generation.*
+
+
+### Audio-Capable LLM Training via Synthetic SFT Datasets
+  *Designed and executed a supervised fine-tuning (SFT) pipeline to train an LLM for multimodal audio tasks, including speech understanding, generation, and noise-resilient processing. As an Audio AI Trainer, I engineered text-based prompt-response pairs simulating real-world audio challenges (background noise, emotional tone variations, interruptions) to teach the model context-aware responses. Collaborated with audio engineers to convert these scenarios into synthetic training data (speech clips, sound effects), enabling the model to robustly parse and generate audio even in suboptimal conditions. Key outcomes included improved performance in noisy environments and nuanced paralinguistic comprehension.*
+
+
+### Vision-Driven Function Calling for LLMs
+  *Engineered an SFT pipeline to train an LLM in interpreting visual inputs and autonomously invoking external APIs/tools via structured JSON calls. As an AI Trainer, I designed multimodal prompts combining images (e.g., graphs, invoices, maps) with user queries, teaching the model to extract visual data (numbers, locations) and trigger context-aware tool usage (payment processing, weather APIs, live data fetching). Responsibilities included curating function schemas, validating JSON outputs against image context, and refining the model’s ability to chain API responses into coherent final answers. The system now solves complex, real-time tasks (e.g., “Calculate shipping costs from this warehouse photo”) beyond standard LLM capabilities.*
+
+
+
+### Clause Generation
+- **Description**  
+  The Clause Generation project focuses on generating legal clauses using advanced natural language processing techniques. It leverages Large Language Models (LLMs), prompt engineering methodologies, and the Hugging Face library for model training and inference. Quantization techniques are employed for model optimization, with GPU acceleration for faster computation. The project also utilizes Llama and Falcon frameworks for specific functionalities.
+
+- **Role and Responsibilities**  
+  As a senior software engineer for the Clause Generation project, my responsibilities included implementing and optimizing the clause generation pipeline, model training, and evaluation.
+
+- **Challenges Faced**  
+  1. ***LLMs too large for available GPU memory***  
+     <b>Challenge: </b> The LLMs used in the project were too large to fit in the available GPU memory, which posed significant challenges in both model training and inference phases.  
+     <b>Solution: </b> Conducted testing using EC2 g5.2xlarge instances, which provided sufficient GPU memory and computational power for efficient model training and inference. Implemented quantization techniques to reduce the model size, enabling it to fit within the available memory constraints. This involved converting the model to a lower precision format, significantly reducing the memory footprint without compromising performance.
+
+  2. ***Maintaining model performance after quantization***  
+     <b>Challenge: </b> Quantizing the model to fit within memory constraints could potentially degrade its performance, particularly in terms of accuracy and output quality.  
+     <b>Solution: </b> Evaluated the performance of quantized models using syntax and semantic similarity metrics to ensure that the generated clauses maintained high-quality standards. Performed iterative fine-tuning and optimization to balance model size and performance, ensuring that the quantized models produced outputs comparable to their full-precision counterparts.
+
+  3. ***Ensuring efficient prompt engineering***  
+     <b>Challenge: </b> Effective prompt engineering is critical for guiding the LLMs to generate accurate and contextually appropriate legal clauses.  
+     <b>Solution: </b> Developed and tested various prompt templates to determine the most effective configurations for eliciting high-quality clause generation from the LLMs. Conducted extensive experimentation with different prompt structures and contextual inputs, continuously refining the approach based on output quality and relevance.
+
+  4. ***Integrating multiple frameworks (Llama and Falcon)***  
+     <b>Challenge: </b> Utilizing multiple frameworks like Llama and Falcon for specific functionalities added complexity to the integration and coordination of different components within the project.  
+     <b>Solution: </b> Designed a modular architecture that allowed for seamless integration of different frameworks, ensuring that each component could be developed and tested independently before integration. Conducted thorough interoperability testing to identify and resolve any compatibility issues between the frameworks, ensuring smooth and efficient operation of the entire clause generation pipeline.
+
+  5. ***Managing computational resources for development and testing***  
+     <b>Challenge: </b> Developing and testing the clause generation pipeline required significant computational resources, which could be challenging to manage, especially during local development.  
+     <b>Solution: </b> Adopted a hybrid development environment where resource-intensive tasks were offloaded to cloud-based EC2 instances, while local development and testing utilized optimized, quantized models. Implemented a robust scheduling and resource management system to ensure efficient utilization of computational resources, minimizing downtime and maximizing productivity.
 
 
 
 
 ## 📁 Projects
-
 
 ### Competitor's app
 
@@ -536,37 +589,6 @@ Solutions Implemented:
   5. ***Scalability and Performance***  
      <b>Challenge: </b> Ensuring the system can scale to handle increasing volumes of data and user queries without degradation in performance.  
      <b>Solution: </b> Leveraged the distributed architecture of Cassandra to scale horizontally, adding more nodes as needed to handle increased load. Implemented load balancing techniques to distribute user queries evenly across the system, preventing bottlenecks and ensuring consistent performance. Continuously monitored system performance and made necessary adjustments to maintain efficiency.
-
-
----
-
-### Clause Generation
-- **Description**  
-  The Clause Generation project focuses on generating legal clauses using advanced natural language processing techniques. It leverages Large Language Models (LLMs), prompt engineering methodologies, and the Hugging Face library for model training and inference. Quantization techniques are employed for model optimization, with GPU acceleration for faster computation. The project also utilizes Llama and Falcon frameworks for specific functionalities.
-
-- **Role and Responsibilities**  
-  As a senior software engineer for the Clause Generation project, my responsibilities included implementing and optimizing the clause generation pipeline, model training, and evaluation.
-
-- **Challenges Faced**  
-  1. ***LLMs too large for available GPU memory***  
-     <b>Challenge: </b> The LLMs used in the project were too large to fit in the available GPU memory, which posed significant challenges in both model training and inference phases.  
-     <b>Solution: </b> Conducted testing using EC2 g5.2xlarge instances, which provided sufficient GPU memory and computational power for efficient model training and inference. Implemented quantization techniques to reduce the model size, enabling it to fit within the available memory constraints. This involved converting the model to a lower precision format, significantly reducing the memory footprint without compromising performance.
-
-  2. ***Maintaining model performance after quantization***  
-     <b>Challenge: </b> Quantizing the model to fit within memory constraints could potentially degrade its performance, particularly in terms of accuracy and output quality.  
-     <b>Solution: </b> Evaluated the performance of quantized models using syntax and semantic similarity metrics to ensure that the generated clauses maintained high-quality standards. Performed iterative fine-tuning and optimization to balance model size and performance, ensuring that the quantized models produced outputs comparable to their full-precision counterparts.
-
-  3. ***Ensuring efficient prompt engineering***  
-     <b>Challenge: </b> Effective prompt engineering is critical for guiding the LLMs to generate accurate and contextually appropriate legal clauses.  
-     <b>Solution: </b> Developed and tested various prompt templates to determine the most effective configurations for eliciting high-quality clause generation from the LLMs. Conducted extensive experimentation with different prompt structures and contextual inputs, continuously refining the approach based on output quality and relevance.
-
-  4. ***Integrating multiple frameworks (Llama and Falcon)***  
-     <b>Challenge: </b> Utilizing multiple frameworks like Llama and Falcon for specific functionalities added complexity to the integration and coordination of different components within the project.  
-     <b>Solution: </b> Designed a modular architecture that allowed for seamless integration of different frameworks, ensuring that each component could be developed and tested independently before integration. Conducted thorough interoperability testing to identify and resolve any compatibility issues between the frameworks, ensuring smooth and efficient operation of the entire clause generation pipeline.
-
-  5. ***Managing computational resources for development and testing***  
-     <b>Challenge: </b> Developing and testing the clause generation pipeline required significant computational resources, which could be challenging to manage, especially during local development.  
-     <b>Solution: </b> Adopted a hybrid development environment where resource-intensive tasks were offloaded to cloud-based EC2 instances, while local development and testing utilized optimized, quantized models. Implemented a robust scheduling and resource management system to ensure efficient utilization of computational resources, minimizing downtime and maximizing productivity.
 
 
 ---
