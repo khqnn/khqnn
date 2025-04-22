@@ -245,6 +245,20 @@ Solutions Implemented:
 
 
 ### Clause Generation
+<!-- 
+python
+fastapi
+docker
+huggingface
+ec2
+api gateway
+
+
+streaming
+ci/cd
+authorization
+-->
+
 - **Description**  
   The Clause Generation project focuses on generating legal clauses using advanced natural language processing techniques. It leverages Large Language Models (LLMs), prompt engineering methodologies, and the Hugging Face library for model training and inference. Quantization techniques are employed for model optimization, with GPU acceleration for faster computation. The project also utilizes Llama and Falcon frameworks for specific functionalities.
 
@@ -279,7 +293,24 @@ Solutions Implemented:
 
 ### Competitor's app
 
+<!-- 
+python
+flask
+sql alchemy
+pytest
+docker
+ec2
+jwt
+pandas
+wsgi
 
+
+ci/cd
+rest apis
+authorization
+authentication
+mvc
+-->
 
 - **Description**  
   Developed a business intelligence web application for a retail organization to analyze and compare sales performance across brands, stores, and regions. The application enables managers to track historical sales data (from previous years) and input current monthly/yearly sales figures, providing actionable insights into growth trends, competitor benchmarking, and store-level performance.
@@ -319,6 +350,28 @@ Solutions Implemented:
 
 
 ### DigiCelcom
+
+<!-- 
+nodejs
+typescript
+docker
+ec2
+jwt
+sendgrid
+puppeteer
+mocha
+nx console
+redis
+mysql
+s3
+
+
+ci/cd
+rest apis
+authorization
+authentication
+dependency injection
+-->
 
 <div id="nitro-img" align="center">
   <img src="https://github.com/user-attachments/assets/98a6e4fb-e4aa-42c7-82de-a21a2ed6873b" />
@@ -362,6 +415,32 @@ Solutions Implemented:
 
 ### Nitro
 
+<!-- 
+nodejs
+typescript
+docker
+ec2
+jwt
+jest
+redis
+dynamodb
+s3
+solidity
+hardhat
+newrelic
+keycloak
+metamask
+
+
+ci/cd
+rest apis
+authorization
+authentication
+dependency injection
+chain of responsibility
+decorator
+-->
+
 <div id="nitro-img" align="center">
   <img src="https://i.ytimg.com/vi/7ZyDbpt-7p4/maxresdefault.jpg" />
 </div>
@@ -392,6 +471,15 @@ Solutions Implemented:
 
 ### WhatsApp Web Nativefier Linux App
 
+<!-- 
+linux
+shell
+Nativefier
+nodejs
+
+
+-->
+
 <div id="techpurview-img" align="center">
   <img width="1785" alt="303564370-41c0c3d3-4803-451e-9df9-8acb20fd2908" src="https://github.com/user-attachments/assets/d2fd9347-181d-4397-abea-2e69c834c343">
 </div>
@@ -416,6 +504,28 @@ Solutions Implemented:
 ---
 
 ### TechPurview
+
+<!-- 
+nodejs
+typescript
+typeorm
+docker
+ec2
+jwt
+jest
+redis
+postgresql
+s3
+
+
+ci/cd
+rest apis
+authorization
+authentication
+dependency injection
+chain of responsibility
+decorator
+-->
 
 <div id="techpurview-img" align="center">
   <img width="1785" alt="303564370-41c0c3d3-4803-451e-9df9-8acb20fd2908" src="https://github.com/user-attachments/assets/0cd63094-8ecd-4ccb-bae3-b40439483033">
@@ -455,6 +565,39 @@ Solutions Implemented:
 
 ### Tossdown
 
+<!-- 
+nodejs
+typescript
+typeorm
+docker
+ec2
+jwt
+jest
+redis
+memcache
+postgresql
+mysql
+dynamodb
+elasticsearch
+mongodb
+s3
+new relic
+pandas
+pusher
+
+
+query optimization
+ci/cd
+rest apis
+authorization
+authentication
+dependency injection
+chain of responsibility
+decorator
+reports
+data analysis
+-->
+
 <div id="tossdown-img" align="center">
   <img width="1181" alt="303564782-10c4665a-97e4-46b8-8f0d-171f17c6b737" src="https://github.com/user-attachments/assets/dda63277-4722-4762-96b0-0d0831c70253">
 </div>
@@ -492,6 +635,21 @@ Solutions Implemented:
 ---
 
 ### Alpolink
+
+<!-- 
+nodejs
+php
+jwt
+jest
+redis
+mysql
+mongodb
+
+query optimization
+rest apis
+authorization
+authentication
+-->
 
 <div id="tossdown-img" align="center">
   <img width="1781" alt="303568944-b1682850-9cb2-4586-af01-6949c5f654e3" src="https://github.com/user-attachments/assets/42939368-e76e-4c2a-85ff-a5d4aa9fb98d">
@@ -533,6 +691,17 @@ Solutions Implemented:
 
 ### Aanganpk
 
+<!-- 
+nodejs
+php
+wordpress
+mysql
+
+query optimization
+rest apis
+reports
+-->
+
 <div id="aangan-img" align="center">
   <img width="1349" alt="303569709-6b2bc488-3e4b-4a6a-9b4e-efa61e9d2c4a" src="https://github.com/user-attachments/assets/7372d9ad-0531-40dd-87b1-925a180e7013">
 </div>
@@ -563,6 +732,17 @@ Solutions Implemented:
 ---
 
 ### Information Retrieval System
+
+<!-- 
+python
+pandas
+numpy
+cassandra
+postgres
+
+tf/idf
+-->
+
 - **Description**  
   The Information Retrieval System is designed to retrieve relevant documents from a corpora using machine learning techniques. It utilizes Support Vector Machine (SVM) algorithms for classification and is implemented in Python within Jupyter Notebook environment. Data is stored and managed in a Cassandra database.
 
@@ -594,6 +774,19 @@ Solutions Implemented:
 ---
 
 ### Stealth Address Library
+
+<!-- 
+python
+ec25519
+x25519
+pypi
+
+cryptography
+web3
+signing and verification
+shared secrete
+-->
+
 - **Description**  
   Stealth Addresses is a cryptographic project focused on generating secure and private addresses for transactions. It utilizes the x25519 algorithm for shared secret generation and the ed25519 algorithm for signature generation and verification.
 
@@ -615,6 +808,21 @@ Solutions Implemented:
 
 
 ---
+
+<!-- 
+php
+nodejs
+dynamodb
+mysql
+
+
+
+data mining
+a priori
+pattern finding
+rest api
+authorization
+-->
 
 ### Products Pair
 - **Description**  
@@ -644,6 +852,24 @@ Solutions Implemented:
 ---
 
 ### Reports management system
+
+<!-- 
+php
+nodejs
+mysql
+new relic
+memecache
+
+
+
+data mining
+data cubes
+data dimensions
+data warehouse
+stored procedures
+multi-tenant
+-->
+
 - **Description**  
   The Reporting System is designed to generate multitenant reports using data cubes and slices. It provides insights into various dimensions such as time, product, category, branch, and brand, catering to the diverse reporting needs of hundreds of clients. Reports can be saved and they're continuesly updated.
 
@@ -675,6 +901,18 @@ Solutions Implemented:
 ---
 
 ### KidSafe
+
+<!-- 
+nodejs
+typescript
+postgresql
+mongodb
+youtube apis
+
+
+
+-->
+
 - **Description**  
   KidSafe is an application designed to provide a safe environment for children to watch YouTube videos. It utilizes the YouTube API to curate a selection of kid-friendly content.
 
@@ -706,6 +944,23 @@ Solutions Implemented:
  ---
 
 ### Notifications Service
+
+<!-- 
+nodejs
+typescript
+postgresql
+mongodb
+dynamodb
+firebase
+fcm
+
+
+event loop
+asynch programming
+offloading
+clustering
+-->
+
 - **Description**  
   The Notifications Service is designed to deliver up to 1,000 notifications per minute efficiently. It utilizes Firebase Cloud Messaging (FCM) for message delivery, Cassandra for data storage, and supports features such as retry mechanisms and recurring/one-time notifications.
 
@@ -752,6 +1007,17 @@ all facets of the project, from conceptualization to implementation. My responsi
 designing the scraping process, integrating essential web scraping libraries, and fine-tuning data
 extraction mechanisms. This project underscores my adeptness in independently driving and delivering
 complex technical solutions.
+-->
+
+<!-- 
+python
+cron jobs
+beautiful soap
+selenium
+mongodb
+
+
+web scraping
 -->
 
 - **Description**  
