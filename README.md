@@ -201,16 +201,24 @@ Solutions Implemented:
 
 
 ## As an LLM Trainer
-  some description
+  As an LLM Trainer, I specialize in designing, refining, and aligning large language models (LLMs) for safe, accurate, and context-aware outputs. My work bridges machine learning and software engineering, focusing on training models to solve domain-specific challenges (e.g., code generation, audio/visual understanding) while mitigating risks like harmful outputs or inefficiencies.
+
+
 
 ## As a Data Scientist
-  some description
+  As a Data Scientist, I partner with businesses to identify growth opportunities through machine learning. My work revolves around analyzing existing workflows, designing tailored ML solutions, and ensuring seamless integration of models into production systems—all while balancing technical feasibility, cost efficiency, and business impact.
+
+
 
 ## As a Software Engineer
-  some description
+  As a versatile Full-Stack Software Engineer, I specialize in architecting and delivering high-performance, scalable solutions across diverse domains—from business intelligence platforms and telecom systems to blockchain-integrated metaverse games and AI/ML-driven tools. My expertise spans backend development (Node.js, Python, PHP), RESTful API design, database optimization (SQL, NoSQL), and cloud-native deployment (AWS, Docker). I’ve led end-to-end development of enterprise-grade applications, implementing MVC architectures, securing systems with JWT authentication, and optimizing performance through caching (Redis), parallel processing, and efficient query design. My work emphasizes scalability (microservices, monorepos), reliability (transaction management, CI/CD pipelines), and innovation (blockchain integration, LLM-driven tools), while solving complex challenges like high-concurrency data workflows, third-party API latency, and dynamic system scaling. I bridge technical rigor with business impact, ensuring solutions are both robust and aligned with user needs.
+
+
 
 ## As a Blockchain Developer
-  some description
+  As a Blockchain Developer, I design, deploy, and integrate secure smart contracts into scalable systems, bridging decentralized technologies with traditional backend architectures. My work spans building blockchain-powered features for metaverse games (e.g., Nitro League) and maintaining a disciplined focus on continuous learning through challenges like the [100 Days of Blockchain](https://github.com/khqnn/chainlearning) commitment.
+
+
 
 
 ##  Projects
