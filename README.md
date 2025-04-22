@@ -117,12 +117,15 @@ Here are some ideas to get you started:
 ![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-569A31?logo=amazons3)
 ![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-Functions-FF9900?logo=awslambda)
 ![Firebase](https://img.shields.io/badge/Firebase-Cloud-FFCA28?logo=firebase)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?logo=githubactions)
+![Bitbucket Pipelines](https://img.shields.io/badge/Bitbucket_Pipelines-CI/CD-0052CC?logo=bitbucket)
+
 
 ### AI/ML & Data
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-Transformers-FFD21F?logo=huggingface)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas)
 ![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy)
+![Tableau](https://img.shields.io/badge/Tableau-2023.3%2B-E97627?logo=tableau)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-8.0%2B-005571?logo=elasticsearch)
 ![Beautiful Soup](https://img.shields.io/badge/Beautiful_Soup-4.0%2B-3D8FC6?logo=python)
 ![Selenium](https://img.shields.io/badge/Selenium-4.0%2B-43B02A?logo=selenium)
@@ -141,6 +144,11 @@ Here are some ideas to get you started:
 ![OAuth2](https://img.shields.io/badge/OAuth2-2.0-EC1C24?logo=openid)
 ![Cryptography](https://img.shields.io/badge/x25519-ed25519-blue?logo=gnuprivacyguard)
 
+### Utilities
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-blue)
+![TypeORM](https://img.shields.io/badge/TypeORM-0.3%2B-000000?logo=typescript)
+![Puppeteer](https://img.shields.io/badge/Puppeteer-19.0%2B-40B5A4?logo=puppeteer)
+![SendGrid](https://img.shields.io/badge/SendGrid-Email-00B488?logo=sendgrid)
 
 ### Version Control  
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
@@ -154,18 +162,23 @@ Here are some ideas to get you started:
 ### Web Servers  
 ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
 
-### Utilities
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-blue)
-![TypeORM](https://img.shields.io/badge/TypeORM-0.3%2B-000000?logo=typescript)
-![Puppeteer](https://img.shields.io/badge/Puppeteer-19.0%2B-40B5A4?logo=puppeteer)
-![SendGrid](https://img.shields.io/badge/SendGrid-Email-00B488?logo=sendgrid)
 
 
+### Architectural Patterns and Key Techniques
+![MVC](https://img.shields.io/badge/Architecture-MVC-4A90E2)
+![Microservices](https://img.shields.io/badge/Architecture-Microservices-6F2DA8)
+![Monorepo](https://img.shields.io/badge/Architecture-Monorepo_(Nx_Console)-34D399)
+![Dependency Injection](https://img.shields.io/badge/Pattern-Dependency_Injection-FF6B6B)
+![Decorator Pattern](https://img.shields.io/badge/Pattern-Decorator-FFD700)
+![Chain of Responsibility](https://img.shields.io/badge/Pattern-Chain_of_Responsibility-48BB78)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![CI/CD](https://img.shields.io/badge/Process-CI/CD_Pipelines-2496ED)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)
+![Adversarial Testing](https://img.shields.io/badge/AI-Adversarial_Testing-FF4136)
+![Query Optimization](https://img.shields.io/badge/Database-Query_Optimization-805AD5)
+![Caching](https://img.shields.io/badge/Performance-Caching_Strategies-ECC94B)
+![Data Modeling](https://img.shields.io/badge/Design-Data_Modeling-4299E1)
 
-
-## Techniques
-- **Architectural Patterns**: MVC, Microservices, Monorepo (Nx Console), Dependency Injection, Decorator Pattern, Chain of Responsibility
-- **Key Techniques**: RESTful API Design, CI/CD Pipelines, Authorization/Authentication, Adversarial Testing, Query Optimization, Transaction Management, Caching Strategies, Parallel Processing, Data Modeling (SQL/NoSQL), Rate Limiting, Synthetic Dataset Creation
 
 
 ## 📜 Certificates
