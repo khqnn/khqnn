@@ -216,7 +216,7 @@ Solutions Implemented:
 
 
 ## 🔗💻 As a Blockchain Developer
-  As a Blockchain Developer, I design, deploy, and integrate secure smart contracts into scalable systems, bridging decentralized technologies with traditional backend architectures. My work spans building blockchain-powered features for metaverse games (e.g., Nitro League) and maintaining a disciplined focus on continuous learning through challenges like the [100 Days of Blockchain](https://github.com/khqnn/chainlearning) commitment. Also, please refere to the [Nitro League](#nitro) and [Stealth Address Library](#-packageslibraries) project and Python package for [stealth addresses](#-packageslibraries)
+  As a Blockchain Developer, I design, deploy, and integrate secure smart contracts into scalable systems, bridging decentralized technologies with traditional backend architectures. My work spans building blockchain-powered features for metaverse games (e.g., Nitro League) and maintaining a disciplined focus on continuous learning through challenges like the [100 Days of Blockchain](https://github.com/khqnn/chainlearning) commitment. Also, please refere to the [Nitro League](#nitro) and [Stealth Address Library](#stealth-address-library) project and Python package for [stealth addresses](#-packageslibraries)
 
 
 
