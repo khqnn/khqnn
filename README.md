@@ -83,35 +83,21 @@ Here are some ideas to get you started:
   - Hotwire Studios
 
 
-## 💻 Technical Skills
-- **Languages:** JavaScript, TypeScript, SQL, Python, Java
-- **Frameworks:** Node, ExpressJs, NestJs, ReactJs
-- **Technologies:** AWS, Docker, GraphQL
-- **Databases:** MySQL, Postgres, MongoDB, DynamoDB, Apache Cassandra
-
-## 🛠️ Tools and Technologies
-- **Development Tools & IDEs:** VS Code
-- **DevOps:** Docker, Jenkins, GitHub Actions
-- **Cloud Platforms:** AWS (Lambda, EC2, ECR, S3, DynamoDB, API Gateway)
-- **Version Control:** Git, GitHub, Bitbucket
-- **Project Management:** Jira, Asana
-- **Web Servers:** Nginx
-- **Monitoring:** Newrelic, CloudWatch
-- **Other:** Sonar, Memcache, Redis
-
-
-## Tools, Technologies, and Techniques
-- **Programming Languages**: Python | JavaScript | TypeScript | PHP | Solidity | SQL | Shell/Bash
+## 🛠️ Tools, Technologies, and Techniques
+- **Programming Languages**: Python, JavaScript, TypeScript, PHP, Solidity, SQL, Shell/Bash
 - **Backend**: FastAPI, Flask, Express.js, NestJS, CodeIgniter, WordPress/WooCommerce
 - **Frontend**: Next.js, React.js
 - **ORM/Database**: SQLAlchemy, TypeORM
 - **ML/DL**: Hugging Face Transformers, Pandas, NumPy, PyTorch
+- **AI/ML & Data Tools**: Hugging Face, Elasticsearch, TF-IDF, Apriori Algorithm, Data Cubes/Slices, Web Scraping (Beautiful Soup, Selenium)
 - **Blockchain**: Hardhat, Web3.js, Ethers.js, MetaMask, Solidity
 - **Testing**: pytest, Mocha, Jest, Chai
-- **DevOps & Cloud Tools**: Docker, AWS (Lambda, EC2, S3, Lambda, API Gateway), Firebase, Bitbucket pipelines, New Relic
+- **DevOps & Cloud Tools**: Docker, AWS (EC2, S3, Lambda, API Gateway), Firebase, Bitbucket pipelines, New Relic
 - **Databases & Storage**: SQL(PostgreSQL, MySQL), NoSQL(DynamoDB, MongoDB, Cassandra), Caching(Redis, Memcached), File Storage(AWS S3)
 - **Security & Auth**: JWT, Keycloak, OAuth2, Passport.js, Cryptography (ed25519, x25519)
-- **AI/ML & Data Tools**: Hugging Face, Elasticsearch, TF-IDF, Apriori Algorithm, Data Cubes/Slices, Web Scraping (Beautiful Soup, Selenium)
+- **Version Control:** Git, GitHub, Bitbucket
+- **Project Management:** Jira, Asana
+- **Web Servers:** Nginx
 - **Architectural Patterns**: MVC, Microservices, Monorepo (Nx Console), Dependency Injection, Decorator Pattern, Chain of Responsibility
 - **Key Techniques**: RESTful API Design, CI/CD Pipelines, Authorization/Authentication, Adversarial Testing, Query Optimization, Transaction Management, Caching Strategies, Parallel Processing, Data Modeling (SQL/NoSQL), Rate Limiting, Synthetic Dataset Creation
 
