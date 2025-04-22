@@ -70,10 +70,10 @@ Here are some ideas to get you started:
   Government College University Lahore
 
 ## 🧑‍💼 Designations/Roles
-  - [LLM Trainer](#as-an-llm-trainer) 🧠📚
-  - [Data Scientist](#as-a-data-scientist) 📊🧑‍🔬
-  - [Backend Engineer](#as-a-data-scientist) 🧑‍💻
-  - [Blockchain Developer](#as-a-data-scientist) 🔗💻
+  - [LLM Trainer](#-as-an-llm-trainer) 🧠📚
+  - [Data Scientist](#-as-a-data-scientist) 📊🧑‍🔬
+  - [Backend Engineer](#-as-a-data-scientist) 🧑‍💻
+  - [Blockchain Developer](#-as-a-data-scientist) 🔗💻
 
 ## 🏢 Companies/Organizations
   - Turing
