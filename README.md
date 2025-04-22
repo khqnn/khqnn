@@ -69,6 +69,19 @@ Here are some ideas to get you started:
 - **BS in Computer Science**  
   Government College University Lahore
 
+## 🧑‍💼 Designations/Roles
+  - [LLM Trainer](#as-an-llm-trainer)
+  - [Data Scientist](#as-a-data-scientist)
+  - [Backend Engineer](#as-a-data-scientist)
+  - [Blockchain Developer](#as-a-data-scientist)
+
+## 🏢 Companies/Organizations
+  - Turing
+  - Systems Ltd
+  - Tkxel
+  - tossdown
+  - Hotwire Studios
+
 
 ## 💻 Technical Skills
 - **Languages:** JavaScript, TypeScript, SQL, Python, Java
@@ -185,6 +198,19 @@ Solutions Implemented:
 
 
 -->
+
+
+## As an LLM Trainer
+  some description
+
+## As a Data Scientist
+  some description
+
+## As a Software Engineer
+  some description
+
+## As a Blockchain Developer
+  some description
 
 
 ##  Projects
