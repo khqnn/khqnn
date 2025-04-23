@@ -72,8 +72,8 @@ Here are some ideas to get you started:
 ## 🧑‍💼 Designations/Roles
   - [LLM Trainer](#-as-an-llm-trainer) 🧠📚
   - [Data Scientist](#-as-a-data-scientist) 📊🧑‍🔬
-  - [Backend Engineer](#-as-a-data-scientist) 🧑‍💻
-  - [Blockchain Developer](#-as-a-data-scientist) 🔗💻
+  - [Backend Engineer](#-as-a-software-engineer) 🧑‍💻
+  - [Blockchain Developer](#-as-a-blockchain-developer) 🔗💻
 
 ## 🏢 Companies/Organizations
   - Turing
