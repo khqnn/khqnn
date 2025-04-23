@@ -358,6 +358,15 @@ Solutions Implemented:
 ### Multimodal Adversarial Testing for LLM Security
   *Spearheaded adversarial testing of a multimodal LLM to identify vulnerabilities in code generation triggered by image-based prompts. As an AI Security Specialist, I designed adversarial attacks by crafting deceptive prompts (e.g., generating malicious code snippets, unethical coding practices) from images, stress-testing the model’s alignment safeguards. Responsibilities included curating image-to-prompt attack vectors, analyzing harmful outputs (malware, SQL injection), and refining SFT datasets to mitigate risks. The project hardened the model’s resilience against coding-domain exploits, ensuring ethical and secure code generation.*
 
+![Multimodal Testing](https://img.shields.io/badge/Multimodal_Testing-Image%2BText_Attacks-FF6B6B?logo=openai)
+![Attack Vectors](https://img.shields.io/badge/Attack_Vectors-SQLi%2FMalware_Triggers-805AD5)
+![SFT Refinement](https://img.shields.io/badge/SFT_Dataset_Refinement-Alignment_Safeguards-34D058)
+![Code Security](https://img.shields.io/badge/Code_Security-Static%2FDynamic_Analysis-4A5568?logo=sonarqube)
+![Ethical AI](https://img.shields.io/badge/Ethical_AI-Harm_Reduction-2496ED?logo=ethicalhub)
+![Model Hardening](https://img.shields.io/badge/Model_Resilience-Exploit_Resistant-FFD700)
+![Vulnerability Mitigation](https://img.shields.io/badge/Exploit_Success_Rate-%E2%96BC%2075%25-FF4136)
+![Compliance](https://img.shields.io/badge/Ethical_Compliance-OWASP%2BISO_27001-3DDC84)
+
 
 ### Audio-Capable LLM Training via Synthetic SFT Datasets
   *Designed and executed a supervised fine-tuning (SFT) pipeline to train an LLM for multimodal audio tasks, including speech understanding, generation, and noise-resilient processing. As an Audio AI Trainer, I engineered text-based prompt-response pairs simulating real-world audio challenges (background noise, emotional tone variations, interruptions) to teach the model context-aware responses. Collaborated with audio engineers to convert these scenarios into synthetic training data (speech clips, sound effects), enabling the model to robustly parse and generate audio even in suboptimal conditions. Key outcomes included improved performance in noisy environments and nuanced paralinguistic comprehension.*
