@@ -91,6 +91,7 @@ Here are some ideas to get you started:
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php)
 ![Solidity](https://img.shields.io/badge/Solidity-0.8%2B-363636?logo=solidity)
 ![SQL](https://img.shields.io/badge/SQL-ANSI%20SQL-4479A1?logo=postgresql)
+![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnubash)
 
 ### Frameworks & Libraries  
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.85%2B-009688?logo=fastapi)
@@ -100,7 +101,7 @@ Here are some ideas to get you started:
 ![React](https://img.shields.io/badge/React-18%2B-61DAFB?logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-13%2B-000000?logo=nextdotjs)
 ![NestJS](https://img.shields.io/badge/NestJS-9.0%2B-E0234E?logo=nestjs)
-
+![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?logo=wordpress)
 
 ### Databases  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql)
@@ -109,16 +110,18 @@ Here are some ideas to get you started:
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-NoSQL-4053D6?logo=amazondynamodb)
 ![Redis](https://img.shields.io/badge/Redis-7.0%2B-DC382D?logo=redis)
 ![Cassandra](https://img.shields.io/badge/Cassandra-4.0%2B-1287B1?logo=apachecassandra)
-
+![Memcached](https://img.shields.io/badge/Memcached-Cache-00BFFF?logo=memcached)
 
 ### DevOps & Cloud  
+![Linux](https://img.shields.io/badge/Linux-Ubuntu%2FDebian-333333?logo=linux)
 ![Docker](https://img.shields.io/badge/Docker-24.0%2B-2496ED?logo=docker)
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-Instance-FF9900?logo=amazonec2)
 ![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-569A31?logo=amazons3)
 ![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-Functions-FF9900?logo=awslambda)
+![AWS API Gateway](https://img.shields.io/badge/AWS_API_Gateway-FF9900?logo=amazonaws&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-Cloud-FFCA28?logo=firebase)
 ![Bitbucket Pipelines](https://img.shields.io/badge/Bitbucket_Pipelines-CI/CD-0052CC?logo=bitbucket)
-
+![New Relic](https://img.shields.io/badge/New_Relic-Monitoring-1C1E26?logo=newrelic&logoColor=white)
 
 ### AI/ML & Data
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch)
@@ -127,9 +130,9 @@ Here are some ideas to get you started:
 ![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy)
 ![Tableau](https://img.shields.io/badge/Tableau-2023.3%2B-E97627?logo=tableau)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-8.0%2B-005571?logo=elasticsearch)
+![Tableau](https://img.shields.io/badge/Tableau-2023.3%2B-E97627?logo=tableau)
 ![Beautiful Soup](https://img.shields.io/badge/Beautiful_Soup-4.0%2B-3D8FC6?logo=python)
 ![Selenium](https://img.shields.io/badge/Selenium-4.0%2B-43B02A?logo=selenium)
-
 
 ### Blockchain  
 ![Hardhat](https://img.shields.io/badge/Hardhat-2.12%2B-FFF100?logo=ethereum)
@@ -137,18 +140,25 @@ Here are some ideas to get you started:
 ![MetaMask](https://img.shields.io/badge/MetaMask-Wallet-F6851B?logo=metamask)
 ![Chainlink](https://img.shields.io/badge/Chainlink-VRF-375BD2?logo=chainlink)
 
-
 ### Security & Auth
 ![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
 ![Keycloak](https://img.shields.io/badge/Keycloak-SSO-2C2C2C?logo=keycloak)
 ![OAuth2](https://img.shields.io/badge/OAuth2-2.0-EC1C24?logo=openid)
 ![Cryptography](https://img.shields.io/badge/x25519-ed25519-blue?logo=gnuprivacyguard)
 
+### Testing Frameworks  
+![pytest](https://img.shields.io/badge/pytest-7.0%2B-0A9EDC?logo=pytest)
+![Mocha](https://img.shields.io/badge/Mocha-10.0%2B-8D6748?logo=mocha)
+![Jest](https://img.shields.io/badge/Jest-29.0%2B-C21325?logo=jest)
+![Chai](https://img.shields.io/badge/Chai-4.0%2B-A30701?logo=chai) 
+
 ### Utilities
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-blue)
 ![TypeORM](https://img.shields.io/badge/TypeORM-0.3%2B-000000?logo=typescript)
 ![Puppeteer](https://img.shields.io/badge/Puppeteer-19.0%2B-40B5A4?logo=puppeteer)
 ![SendGrid](https://img.shields.io/badge/SendGrid-Email-00B488?logo=sendgrid)
+![Nativefier](https://img.shields.io/badge/Nativefier-Desktop_Apps-47848F?logo=electron)
+![Pusher](https://img.shields.io/badge/Pusher-Realtime-010101?logo=pusher)  
 
 ### Version Control  
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
@@ -161,6 +171,7 @@ Here are some ideas to get you started:
 
 ### Web Servers  
 ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-20.1%2B-499489?logo=gunicorn)
 
 
 
@@ -177,7 +188,17 @@ Here are some ideas to get you started:
 ![Adversarial Testing](https://img.shields.io/badge/AI-Adversarial_Testing-FF4136)
 ![Query Optimization](https://img.shields.io/badge/Database-Query_Optimization-805AD5)
 ![Caching](https://img.shields.io/badge/Performance-Caching_Strategies-ECC94B)
+![Event Loop](https://img.shields.io/badge/Node.js-Event_Loop-339933?logo=nodedotjs)
+![Async Programming](https://img.shields.io/badge/JS-Async_Programming-F7DF1E?logo=javascript)
 ![Data Modeling](https://img.shields.io/badge/Design-Data_Modeling-4299E1)
+![Reports](https://img.shields.io/badge/Data-Reports-6C63FF?logo=databricks)
+![Data Analysis](https://img.shields.io/badge/Data-Analysis-006400?logo=data) 
+![Data Mining](https://img.shields.io/badge/Technique-Data_Mining-8A2BE2)
+![A Priori](https://img.shields.io/badge/Algorithm-A_Priori-FF8C00)
+![Pattern Finding](https://img.shields.io/badge/Technique-Pattern_Finding-1E90FF)
+![Web Scraping](https://img.shields.io/badge/Web_Scraping-Technique-8E44AD?logo=python)
+
+
 
 
 
@@ -327,19 +348,6 @@ Solutions Implemented:
 
 
 ### Clause Generation
-<!-- 
-python
-fastapi
-docker
-huggingface
-ec2
-api gateway
-
-
-streaming
-ci/cd
-authorization
--->
 
 - **Description**  
   The Clause Generation project focuses on generating legal clauses using advanced natural language processing techniques. It leverages Large Language Models (LLMs), prompt engineering methodologies, and the Hugging Face library for model training and inference. Quantization techniques are employed for model optimization, with GPU acceleration for faster computation. The project also utilizes Llama and Falcon frameworks for specific functionalities.
@@ -368,6 +376,16 @@ authorization
      <b>Challenge: </b> Developing and testing the clause generation pipeline required significant computational resources, which could be challenging to manage, especially during local development.  
      <b>Solution: </b> Adopted a hybrid development environment where resource-intensive tasks were offloaded to cloud-based EC2 instances, while local development and testing utilized optimized, quantized models. Implemented a robust scheduling and resource management system to ensure efficient utilization of computational resources, minimizing downtime and maximizing productivity.
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.85%2B-009688?logo=fastapi)
+![Docker](https://img.shields.io/badge/Docker-24.0%2B-2496ED?logo=docker)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-Transformers-FFD21F?logo=huggingface)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-Instance-FF9900?logo=amazonec2)
+![AWS API Gateway](https://img.shields.io/badge/AWS_API_Gateway-FF9900?logo=amazonaws&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
+
+![CI/CD](https://img.shields.io/badge/Process-CI/CD_Pipelines-2496ED)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)
 
 
 
@@ -375,24 +393,6 @@ authorization
 
 ### Competitor's app
 
-<!-- 
-python
-flask
-sql alchemy
-pytest
-docker
-ec2
-jwt
-pandas
-wsgi
-
-
-ci/cd
-rest apis
-authorization
-authentication
-mvc
--->
 
 - **Description**  
   Developed a business intelligence web application for a retail organization to analyze and compare sales performance across brands, stores, and regions. The application enables managers to track historical sales data (from previous years) and input current monthly/yearly sales figures, providing actionable insights into growth trends, competitor benchmarking, and store-level performance.
@@ -426,34 +426,31 @@ mvc
      <b>Challenge: </b> Complex database interactions made tests slow and difficult to isolate.    
      <b>Solution: </b>  Leveraged pytest fixtures to mock SQLAlchemy sessions and create ephemeral test databases.
   
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
+![Flask](https://img.shields.io/badge/Flask-2.0%2B-000000?logo=flask)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-blue)
+![pytest](https://img.shields.io/badge/pytest-7.0%2B-0A9EDC?logo=pytest)
+![Docker](https://img.shields.io/badge/Docker-24.0%2B-2496ED?logo=docker)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-Instance-FF9900?logo=amazonec2)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
+![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas)
+![Gunicorn](https://img.shields.io/badge/Gunicorn-20.1%2B-499489?logo=gunicorn)  
 
+
+![CI/CD](https://img.shields.io/badge/Process-CI/CD_Pipelines-2496ED)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)
+![MVC](https://img.shields.io/badge/Architecture-MVC-4A90E2)
 
 ---
 
 
-### DigiCelcom
-
-<!-- 
-nodejs
-typescript
-docker
-ec2
-jwt
-sendgrid
-puppeteer
-mocha
-nx console
-redis
-mysql
-s3
+### CelcomDigi
 
 
-ci/cd
-rest apis
-authorization
-authentication
-dependency injection
--->
+
+
+
 
 <div id="nitro-img" align="center">
   <img src="https://github.com/user-attachments/assets/98a6e4fb-e4aa-42c7-82de-a21a2ed6873b" />
@@ -489,7 +486,25 @@ dependency injection
   3. ***Resource-Intensive PDF Generation***
      <b>Challenge: </b> Generating PDFs from dynamic HTML templates caused server bottlenecks.   
      <b>Solution: </b>  Offloaded PDF rendering to a dedicated service using Puppeteer and optimized HTML templates with precompiled layouts.
-  
+
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0%2B-3178C6?logo=typescript)
+![Docker](https://img.shields.io/badge/Docker-24.0%2B-2496ED?logo=docker)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-Instance-FF9900?logo=amazonec2)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
+![SendGrid](https://img.shields.io/badge/SendGrid-Email-00B488?logo=sendgrid)
+![Puppeteer](https://img.shields.io/badge/Puppeteer-19.0%2B-40B5A4?logo=puppeteer)
+![Redis](https://img.shields.io/badge/Redis-7.0%2B-DC382D?logo=redis)
+![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql)
+![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-569A31?logo=amazons3)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)
+![Mocha](https://img.shields.io/badge/Mocha-10.0%2B-8D6748?logo=mocha)  
+
+
+![CI/CD](https://img.shields.io/badge/Process-CI/CD_Pipelines-2496ED)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![Dependency Injection](https://img.shields.io/badge/Pattern-Dependency_Injection-FF6B6B)
+![Monorepo](https://img.shields.io/badge/Architecture-Monorepo_(Nx_Console)-34D399)
 
 
 ---
@@ -497,31 +512,7 @@ dependency injection
 
 ### Nitro
 
-<!-- 
-nodejs
-typescript
-docker
-ec2
-jwt
-jest
-redis
-dynamodb
-s3
-solidity
-hardhat
-newrelic
-keycloak
-metamask
 
-
-ci/cd
-rest apis
-authorization
-authentication
-dependency injection
-chain of responsibility
-decorator
--->
 
 <div id="nitro-img" align="center">
   <img src="https://i.ytimg.com/vi/7ZyDbpt-7p4/maxresdefault.jpg" />
@@ -549,18 +540,33 @@ decorator
 
 - **[site](https://www.nitroleague.com/)**
 
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0%2B-3178C6?logo=typescript)
+![Docker](https://img.shields.io/badge/Docker-24.0%2B-2496ED?logo=docker)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-Instance-FF9900?logo=amazonec2)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
+![Jest](https://img.shields.io/badge/Jest-29.0%2B-C21325?logo=jest)
+![Redis](https://img.shields.io/badge/Redis-7.0%2B-DC382D?logo=redis)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-NoSQL-4053D6?logo=amazondynamodb)
+![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-569A31?logo=amazons3)
+![Solidity](https://img.shields.io/badge/Solidity-0.8%2B-363636?logo=solidity)
+![Hardhat](https://img.shields.io/badge/Hardhat-2.12%2B-FFF100?logo=ethereum)
+![New Relic](https://img.shields.io/badge/New_Relic-Monitoring-1C1E26?logo=newrelic&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak-SSO-2C2C2C?logo=keycloak)
+![MetaMask](https://img.shields.io/badge/MetaMask-Wallet-F6851B?logo=metamask)
+
+![CI/CD](https://img.shields.io/badge/Process-CI/CD_Pipelines-2496ED)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)
+![Dependency Injection](https://img.shields.io/badge/Pattern-Dependency_Injection-FF6B6B)
+![Chain of Responsibility](https://img.shields.io/badge/Pattern-Chain_of_Responsibility-48BB78)
+![Decorator Pattern](https://img.shields.io/badge/Pattern-Decorator-FFD700)
+
+
 ---
 
 ### WhatsApp Web Nativefier Linux App
-
-<!-- 
-linux
-shell
-Nativefier
-nodejs
-
-
--->
 
 <div id="techpurview-img" align="center">
   <img width="1785" alt="303564370-41c0c3d3-4803-451e-9df9-8acb20fd2908" src="https://github.com/user-attachments/assets/d2fd9347-181d-4397-abea-2e69c834c343">
@@ -583,31 +589,16 @@ nodejs
 
 - **[site](https://github.com/khqnn/linux-whatsapp)**
 
+![Linux](https://img.shields.io/badge/Linux-Ubuntu%2FDebian-333333?logo=linux)
+![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnubash)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![Nativefier](https://img.shields.io/badge/Nativefier-Desktop_Apps-47848F?logo=electron)
+
+
 ---
 
 ### TechPurview
 
-<!-- 
-nodejs
-typescript
-typeorm
-docker
-ec2
-jwt
-jest
-redis
-postgresql
-s3
-
-
-ci/cd
-rest apis
-authorization
-authentication
-dependency injection
-chain of responsibility
-decorator
--->
 
 <div id="techpurview-img" align="center">
   <img width="1785" alt="303564370-41c0c3d3-4803-451e-9df9-8acb20fd2908" src="https://github.com/user-attachments/assets/0cd63094-8ecd-4ccb-bae3-b40439483033">
@@ -642,6 +633,25 @@ decorator
      <b>Solution: </b>Established clear communication protocols and API documentation to ensure that the backend services met the frontend requirements. Used tools like Swagger for API documentation and Postman for testing. Conducted regular integration testing and code reviews to ensure smooth and efficient collaboration between the backend and frontend teams.
 
 - **[site](https://biz.techpurview.co/)**
+
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0%2B-3178C6?logo=typescript)
+![TypeORM](https://img.shields.io/badge/TypeORM-0.3%2B-000000?logo=typescript)
+![Docker](https://img.shields.io/badge/Docker-24.0%2B-2496ED?logo=docker)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-Instance-FF9900?logo=amazonec2)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
+![Jest](https://img.shields.io/badge/Jest-29.0%2B-C21325?logo=jest)
+![Redis](https://img.shields.io/badge/Redis-7.0%2B-DC382D?logo=redis)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql)
+![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-569A31?logo=amazons3)
+  
+![CI/CD](https://img.shields.io/badge/Process-CI/CD_Pipelines-2496ED)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)
+![Dependency Injection](https://img.shields.io/badge/Pattern-Dependency_Injection-FF6B6B)
+![Chain of Responsibility](https://img.shields.io/badge/Pattern-Chain_of_Responsibility-48BB78)
+![Decorator Pattern](https://img.shields.io/badge/Pattern-Decorator-FFD700)
+
 
 ---
 
@@ -680,6 +690,7 @@ reports
 data analysis
 -->
 
+
 <div id="tossdown-img" align="center">
   <img width="1181" alt="303564782-10c4665a-97e4-46b8-8f0d-171f17c6b737" src="https://github.com/user-attachments/assets/dda63277-4722-4762-96b0-0d0831c70253">
 </div>
@@ -714,24 +725,43 @@ data analysis
 
 - **[site](https://tossdown.com/)**
 
+
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0%2B-3178C6?logo=typescript)
+![TypeORM](https://img.shields.io/badge/TypeORM-0.3%2B-000000?logo=typescript)
+![Docker](https://img.shields.io/badge/Docker-24.0%2B-2496ED?logo=docker)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-Instance-FF9900?logo=amazonec2)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
+![Jest](https://img.shields.io/badge/Jest-29.0%2B-C21325?logo=jest)
+![Redis](https://img.shields.io/badge/Redis-7.0%2B-DC382D?logo=redis)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql)
+![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-NoSQL-4053D6?logo=amazondynamodb)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-8.0%2B-005571?logo=elasticsearch)
+![MongoDB](https://img.shields.io/badge/MongoDB-6.0%2B-47A248?logo=mongodb)
+![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-569A31?logo=amazons3)
+![New Relic](https://img.shields.io/badge/New_Relic-Monitoring-1C1E26?logo=newrelic&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas)
+![Memcached](https://img.shields.io/badge/Memcached-Cache-00BFFF?logo=memcached)
+![Pusher](https://img.shields.io/badge/Pusher-Realtime-010101?logo=pusher)  
+
+
+![Query Optimization](https://img.shields.io/badge/Database-Query_Optimization-805AD5)
+![CI/CD](https://img.shields.io/badge/Process-CI/CD_Pipelines-2496ED)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)
+![Dependency Injection](https://img.shields.io/badge/Pattern-Dependency_Injection-FF6B6B)
+![Chain of Responsibility](https://img.shields.io/badge/Pattern-Chain_of_Responsibility-48BB78)
+![Decorator Pattern](https://img.shields.io/badge/Pattern-Decorator-FFD700) 
+![Reports](https://img.shields.io/badge/Data-Reports-6C63FF?logo=databricks)
+![Data Analysis](https://img.shields.io/badge/Data-Analysis-006400?logo=data)  
+
+
+
 ---
 
 ### Alpolink
 
-<!-- 
-nodejs
-php
-jwt
-jest
-redis
-mysql
-mongodb
-
-query optimization
-rest apis
-authorization
-authentication
--->
 
 <div id="tossdown-img" align="center">
   <img width="1781" alt="303568944-b1682850-9cb2-4586-af01-6949c5f654e3" src="https://github.com/user-attachments/assets/42939368-e76e-4c2a-85ff-a5d4aa9fb98d">
@@ -769,20 +799,30 @@ authentication
 - **[site](https://www.certificationsbuzz.com/)**
 
 
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0%2B-3178C6?logo=typescript)
+![TypeORM](https://img.shields.io/badge/TypeORM-0.3%2B-000000?logo=typescript)
+![Docker](https://img.shields.io/badge/Docker-24.0%2B-2496ED?logo=docker)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-Instance-FF9900?logo=amazonec2)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
+![Jest](https://img.shields.io/badge/Jest-29.0%2B-C21325?logo=jest)
+![Redis](https://img.shields.io/badge/Redis-7.0%2B-DC382D?logo=redis)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql)
+![AWS S3](https://img.shields.io/badge/AWS_S3-Storage-569A31?logo=amazons3)  
+
+![CI/CD](https://img.shields.io/badge/Process-CI/CD_Pipelines-2496ED)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)
+![Dependency Injection](https://img.shields.io/badge/Pattern-Dependency_Injection-FF6B6B)
+![Chain of Responsibility](https://img.shields.io/badge/Pattern-Chain_of_Responsibility-48BB78)
+![Decorator Pattern](https://img.shields.io/badge/Pattern-Decorator-FFD700)
+
+
+
 ---
 
 ### Aanganpk
 
-<!-- 
-nodejs
-php
-wordpress
-mysql
-
-query optimization
-rest apis
-reports
--->
 
 <div id="aangan-img" align="center">
   <img width="1349" alt="303569709-6b2bc488-3e4b-4a6a-9b4e-efa61e9d2c4a" src="https://github.com/user-attachments/assets/7372d9ad-0531-40dd-87b1-925a180e7013">
@@ -811,19 +851,19 @@ reports
 
 - **[site](https://kaarvan.com.pk/portfolio-item/aanganpk-com/)**
 
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?logo=wordpress)
+![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql)
+![Query Optimization](https://img.shields.io/badge/Database-Query_Optimization-805AD5)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![Tableau](https://img.shields.io/badge/Tableau-2023.3%2B-E97627?logo=tableau)
+
+
+
 ---
 
 ### Information Retrieval System
 
-<!-- 
-python
-pandas
-numpy
-cassandra
-postgres
-
-tf/idf
--->
 
 - **Description**  
   The Information Retrieval System is designed to retrieve relevant documents from a corpora using machine learning techniques. It utilizes Support Vector Machine (SVM) algorithms for classification and is implemented in Python within Jupyter Notebook environment. Data is stored and managed in a Cassandra database.
@@ -853,21 +893,16 @@ tf/idf
      <b>Solution: </b> Leveraged the distributed architecture of Cassandra to scale horizontally, adding more nodes as needed to handle increased load. Implemented load balancing techniques to distribute user queries evenly across the system, preventing bottlenecks and ensuring consistent performance. Continuously monitored system performance and made necessary adjustments to maintain efficiency.
 
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy)
+![Cassandra](https://img.shields.io/badge/Cassandra-4.0%2B-1287B1?logo=apachecassandra)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql)
+![tf-idf](https://img.shields.io/badge/NLP-tf/idf-5D9CEC?logo=scikitlearn)
+
 ---
 
 ### Stealth Address Library
-
-<!-- 
-python
-ec25519
-x25519
-pypi
-
-cryptography
-web3
-signing and verification
-shared secrete
--->
 
 - **Description**  
   Stealth Addresses is a cryptographic project focused on generating secure and private addresses for transactions. It utilizes the x25519 algorithm for shared secret generation and the ed25519 algorithm for signature generation and verification.
@@ -888,25 +923,17 @@ shared secrete
      <b>Challenge: </b> Creating a custom implementation of the ed25519 algorithm required a comprehensive understanding of its specifications and intricate details, as well as ensuring it adhered to security standards.  
      <b>Solution: </b> Followed the RFC8032 specifications meticulously to develop a custom core implementation of ed25519. This ensured that the algorithm was implemented correctly and securely, avoiding potential pitfalls associated with standard libraries.
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
+![Cryptography](https://img.shields.io/badge/x25519-ed25519-blue?logo=gnuprivacyguard)
+![Web3.js](https://img.shields.io/badge/Web3.js-4.0%2B-F16822?logo=web3dotjs)
+
 
 ---
 
-<!-- 
-php
-nodejs
-dynamodb
-mysql
-
-
-
-data mining
-a priori
-pattern finding
-rest api
-authorization
--->
 
 ### Products Pair
+
+
 - **Description**  
   Products Pair is a system designed to predict the probability of items being sold together. The Apriori algorithm is utilized to calculate these probabilities based on transactional data.
 
@@ -930,27 +957,23 @@ authorization
      <b>Challenge: </b> Ensuring that the system can handle real-time updates and maintain low latency for probability queries was essential for providing timely and accurate predictions.  
      <b>Solution: </b> Implemented incremental update mechanisms that allow the system to update probabilities of product pairs in real-time based on new transactional data without requiring a complete recalculation. Utilized caching strategies to store frequently accessed probabilities in memory, reducing the need for repetitive database queries and further lowering latency.
 
+![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-NoSQL-4053D6?logo=amazondynamodb)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![Auth](https://img.shields.io/badge/Security-Auth_(JWT/OAuth)-4A5568)   
+
+![Data Mining](https://img.shields.io/badge/Technique-Data_Mining-8A2BE2)
+![A Priori](https://img.shields.io/badge/Algorithm-A_Priori-FF8C00)
+![Pattern Finding](https://img.shields.io/badge/Technique-Pattern_Finding-1E90FF)
+
+
 
 ---
 
 ### Reports management system
 
-<!-- 
-php
-nodejs
-mysql
-new relic
-memecache
-
-
-
-data mining
-data cubes
-data dimensions
-data warehouse
-stored procedures
-multi-tenant
--->
 
 - **Description**  
   The Reporting System is designed to generate multitenant reports using data cubes and slices. It provides insights into various dimensions such as time, product, category, branch, and brand, catering to the diverse reporting needs of hundreds of clients. Reports can be saved and they're continuesly updated.
@@ -980,20 +1003,22 @@ multi-tenant
      <b>Solution: </b> Implemented robust access control mechanisms to ensure that only authorized users can access and generate reports for their respective clients.
 
 
+![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?logo=php)
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql)
+![New Relic](https://img.shields.io/badge/New_Relic-Monitoring-1C1E26?logo=newrelic&logoColor=white)
+![Caching](https://img.shields.io/badge/Performance-Caching_Strategies-ECC94B)
+
+
+![Data Modeling](https://img.shields.io/badge/Design-Data_Modeling-4299E1)
+![Query Optimization](https://img.shields.io/badge/Database-Query_Optimization-805AD5)
+![Microservices](https://img.shields.io/badge/Architecture-Microservices-6F2DA8)
+
+
 ---
 
 ### KidSafe
 
-<!-- 
-nodejs
-typescript
-postgresql
-mongodb
-youtube apis
-
-
-
--->
 
 - **Description**  
   KidSafe is an application designed to provide a safe environment for children to watch YouTube videos. It utilizes the YouTube API to curate a selection of kid-friendly content.
@@ -1021,6 +1046,12 @@ youtube apis
   5. ***Maintaining a user-friendly interface***  
      <b>Challenge: </b> Ensuring that the app's interface remained user-friendly and intuitive despite the added complexity of automated content fetching.  
      <b>Solution: </b> Focused on designing a clean and intuitive user interface that simplifies navigation and content discovery for both parents and children. Ensured seamless integration of the new automated features into the existing interface, providing clear instructions and feedback to users throughout the process.
+
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0%2B-3178C6?logo=typescript)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-6.0%2B-47A248?logo=mongodb)
+![YouTube API](https://img.shields.io/badge/YouTube%20API-Data_v3-FF0000?logo=youtube)
 
 
  ---
@@ -1074,6 +1105,23 @@ clustering
      <b>Challenge: </b> Minimizing latency and ensuring timely delivery of notifications were essential for the service's effectiveness.  
      <b>Solution: </b> Optimized data access patterns to reduce latency in retrieving and processing notifications. The redesigned data model played a crucial role in achieving this by localizing relevant data. Implemented real-time processing techniques to ensure that notifications were delivered at the correct times, leveraging efficient scheduling and immediate processing upon trigger events.
 
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.0%2B-3178C6?logo=typescript)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-6.0%2B-47A248?logo=mongodb)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-NoSQL-4053D6?logo=amazondynamodb)
+![Firebase](https://img.shields.io/badge/Firebase-Cloud-FFCA28?logo=firebase)
+
+![Event Loop](https://img.shields.io/badge/Node.js-Event_Loop-339933?logo=nodedotjs)
+![Async Programming](https://img.shields.io/badge/JS-Async_Programming-F7DF1E?logo=javascript)
+![Offloading](https://img.shields.io/badge/Performance-Offloading-FF9800?logo=gnubash)
+![Clustering](https://img.shields.io/badge/Scaling-Clustering-4CAF50?logo=nodedotjs)
+
+
+---
+
+Would you like me to add these directly into your Markdown as a block or reorganize them by category?
+
   
 ---
 
@@ -1091,16 +1139,7 @@ extraction mechanisms. This project underscores my adeptness in independently dr
 complex technical solutions.
 -->
 
-<!-- 
-python
-cron jobs
-beautiful soap
-selenium
-mongodb
 
-
-web scraping
--->
 
 - **Description**  
   The Google Map Scraper is a tool designed to extract information about stores from Google Maps based on location and store type. It is built using Python, with Beautiful Soup and Selenium utilized for web scraping.
@@ -1141,4 +1180,12 @@ in store information could impact the reliability of the scraper.
   <b>Solution: </b> Incorporated data validation checks to verify the accuracy of the extracted information.
 This included cross-referencing data with multiple sources or validating against known patterns. Implemented robust error handling and logging mechanisms to capture and
 address issues during the scraping process, allowing for accurate data extraction and easier debugging.
+
+
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
+![Cron Jobs](https://img.shields.io/badge/Cron-Jobs-4A5568?logo=linux&logoColor=white)
+![Beautiful Soup](https://img.shields.io/badge/Beautiful_Soup-4.0%2B-3D8FC6?logo=python)
+![Selenium](https://img.shields.io/badge/Selenium-4.0%2B-43B02A?logo=selenium)
+![MongoDB](https://img.shields.io/badge/MongoDB-6.0%2B-47A248?logo=mongodb)
+![Web Scraping](https://img.shields.io/badge/Web_Scraping-Technique-8E44AD?logo=python)
 
