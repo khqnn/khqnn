@@ -202,7 +202,8 @@ Here are some ideas to get you started:
 
 
 
-## 📜 Certificates
+## 📜 Certificates & Courses
+- **Function-Calling and Data Extraction with LLMs | DeepLearning.AI 2024**
 - **Data Engineer Certificate | Mangtas 2023**
 - **Machine Learning, Data Science, and Deep Learning with Python | Udemy 2022**
 
