@@ -372,6 +372,14 @@ Solutions Implemented:
   *Designed and executed a supervised fine-tuning (SFT) pipeline to train an LLM for multimodal audio tasks, including speech understanding, generation, and noise-resilient processing. As an Audio AI Trainer, I engineered text-based prompt-response pairs simulating real-world audio challenges (background noise, emotional tone variations, interruptions) to teach the model context-aware responses. Collaborated with audio engineers to convert these scenarios into synthetic training data (speech clips, sound effects), enabling the model to robustly parse and generate audio even in suboptimal conditions. Key outcomes included improved performance in noisy environments and nuanced paralinguistic comprehension.*
 
 
+![Synthetic Data](https://img.shields.io/badge/Synthetic_Data-Noise%2BEmotion_Augmented-805AD5)
+![Slack](https://img.shields.io/badge/Slack-Audio_Team_Collab-4A154B?logo=slack)
+![GitHub](https://img.shields.io/badge/GitHub-Data_Versioning-181717?logo=github)
+![Noise Resilience](https://img.shields.io/badge/Noise_Resilience-Context_Aware-34D058)
+![Paralinguistic Comp.](https://img.shields.io/badge/Paralinguistic_Comprehension-Tone%2FEmotion-2496ED)
+![Low Latency](https://img.shields.io/badge/Real_Time_Processing-<200ms-FFD700)
+
+
 ### Vision-Driven Function Calling for LLMs
   *Engineered an SFT pipeline to train an LLM in interpreting visual inputs and autonomously invoking external APIs/tools via structured JSON calls. As an AI Trainer, I designed multimodal prompts combining images (e.g., graphs, invoices, maps) with user queries, teaching the model to extract visual data (numbers, locations) and trigger context-aware tool usage (payment processing, weather APIs, live data fetching). Responsibilities included curating function schemas, validating JSON outputs against image context, and refining the model’s ability to chain API responses into coherent final answers. The system now solves complex, real-time tasks (e.g., “Calculate shipping costs from this warehouse photo”) beyond standard LLM capabilities.*
 
