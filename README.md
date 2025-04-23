@@ -393,6 +393,7 @@ Solutions Implemented:
 
 ### Competitor's app
 
+![Image](https://github.com/user-attachments/assets/e32c5d5a-dd48-427f-809f-589ea2e1a16c)
 
 - **Description**  
   Developed a business intelligence web application for a retail organization to analyze and compare sales performance across brands, stores, and regions. The application enables managers to track historical sales data (from previous years) and input current monthly/yearly sales figures, providing actionable insights into growth trends, competitor benchmarking, and store-level performance.
