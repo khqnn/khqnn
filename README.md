@@ -373,8 +373,6 @@ Solutions Implemented:
 
 
 ![Synthetic Data](https://img.shields.io/badge/Synthetic_Data-Noise%2BEmotion_Augmented-805AD5)
-![Slack](https://img.shields.io/badge/Slack-Audio_Team_Collab-4A154B?logo=slack)
-![GitHub](https://img.shields.io/badge/GitHub-Data_Versioning-181717?logo=github)
 ![Noise Resilience](https://img.shields.io/badge/Noise_Resilience-Context_Aware-34D058)
 ![Paralinguistic Comp.](https://img.shields.io/badge/Paralinguistic_Comprehension-Tone%2FEmotion-2496ED)
 ![Low Latency](https://img.shields.io/badge/Real_Time_Processing-<200ms-FFD700)
@@ -383,6 +381,13 @@ Solutions Implemented:
 ### Vision-Driven Function Calling for LLMs
   *Engineered an SFT pipeline to train an LLM in interpreting visual inputs and autonomously invoking external APIs/tools via structured JSON calls. As an AI Trainer, I designed multimodal prompts combining images (e.g., graphs, invoices, maps) with user queries, teaching the model to extract visual data (numbers, locations) and trigger context-aware tool usage (payment processing, weather APIs, live data fetching). Responsibilities included curating function schemas, validating JSON outputs against image context, and refining the model’s ability to chain API responses into coherent final answers. The system now solves complex, real-time tasks (e.g., “Calculate shipping costs from this warehouse photo”) beyond standard LLM capabilities.*
 
+![JSON Schema](https://img.shields.io/badge/JSON_Schema-Validation-4A5568?logo=json)
+![OCR](https://img.shields.io/badge/OCR-Tesseract%2B-0078D6?logo=openai)
+![Vision Accuracy](https://img.shields.io/badge/Visual_Data_Extraction-98%25_Accuracy-34D058)
+![Latency](https://img.shields.io/badge/API_Chaining_Latency-<500ms-FFD700)
+![Multimodal Prompts](https://img.shields.io/badge/Multimodal_Inputs-Image%2BText_Triggers-805AD5)
+![Real-World Use Cases](https://img.shields.io/badge/Use_Case-Shipping_Cost_Calculator-2496ED)
+![API Integration](https://img.shields.io/badge/External_Tools-Weather%2FGeo_APIs-3DDC84)
 
 
 ### Clause Generation
