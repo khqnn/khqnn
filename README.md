@@ -130,7 +130,6 @@ Here are some ideas to get you started:
 ![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy)
 ![Tableau](https://img.shields.io/badge/Tableau-2023.3%2B-E97627?logo=tableau)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-8.0%2B-005571?logo=elasticsearch)
-![Tableau](https://img.shields.io/badge/Tableau-2023.3%2B-E97627?logo=tableau)
 ![Beautiful Soup](https://img.shields.io/badge/Beautiful_Soup-4.0%2B-3D8FC6?logo=python)
 ![Selenium](https://img.shields.io/badge/Selenium-4.0%2B-43B02A?logo=selenium)
 
@@ -188,15 +187,15 @@ Here are some ideas to get you started:
 ![Adversarial Testing](https://img.shields.io/badge/AI-Adversarial_Testing-FF4136)
 ![Query Optimization](https://img.shields.io/badge/Database-Query_Optimization-805AD5)
 ![Caching](https://img.shields.io/badge/Performance-Caching_Strategies-ECC94B)
-![Event Loop](https://img.shields.io/badge/Node.js-Event_Loop-339933?logo=nodedotjs)
-![Async Programming](https://img.shields.io/badge/JS-Async_Programming-F7DF1E?logo=javascript)
 ![Data Modeling](https://img.shields.io/badge/Design-Data_Modeling-4299E1)
-![Reports](https://img.shields.io/badge/Data-Reports-6C63FF?logo=databricks)
-![Data Analysis](https://img.shields.io/badge/Data-Analysis-006400?logo=data) 
+![Reports](https://img.shields.io/badge/Data-Reports-6C63FF)
+![Data Analysis](https://img.shields.io/badge/Data-Analysis-006400) 
 ![Data Mining](https://img.shields.io/badge/Technique-Data_Mining-8A2BE2)
 ![A Priori](https://img.shields.io/badge/Algorithm-A_Priori-FF8C00)
 ![Pattern Finding](https://img.shields.io/badge/Technique-Pattern_Finding-1E90FF)
-![Web Scraping](https://img.shields.io/badge/Web_Scraping-Technique-8E44AD?logo=python)
+![Web Scraping](https://img.shields.io/badge/Technique-Web_Scraping-8E44AD)
+![Event Loop](https://img.shields.io/badge/Node.js-Event_Loop-339933?logo=nodedotjs)
+![Async Programming](https://img.shields.io/badge/JS-Async_Programming-F7DF1E?logo=javascript)
 
 
 
@@ -330,9 +329,30 @@ Solutions Implemented:
 ### Python Code Generation & Validation LLM
   *Developed a specialized LLM precision-tuned to generate, analyze, and correct Python code in response to user queries. As an LLM Trainer, I evaluated model outputs for accuracy, security, and efficiency, authored gold-standard code responses, and iteratively refined training datasets. Key contributions included identifying edge cases (e.g., recursion errors, insecure dependencies), implementing adversarial testing, and aligning outputs with real-world programming challenges to ensure robust, error-free code generation. The model now assists developers in writing secure, optimized Python scripts across diverse use cases.*
 
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch) 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
+![Jupyter](https://img.shields.io/badge/Jupyter_Notebooks-Data_Preprocessing-F37626?logo=jupyter)
+![Adversarial Testing](https://img.shields.io/badge/Adversarial_Testing-Edge_Cases-FF4136)
+![Unit Testing](https://img.shields.io/badge/Unit_Testing-pytest%2B-0A9EDC?logo=pytest)
+![Code Security](https://img.shields.io/badge/Code_Security-Static_Analysis-4A5568?logo=sonarqube)
+![Code Quality](https://img.shields.io/badge/Code_Quality-PEP8%2B-3572A5?logo=codacy)
+![Efficiency](https://img.shields.io/badge/Code_Efficiency-Optimized-34D058)
+![Production Ready](https://img.shields.io/badge/Production_Ready-LLM_Validated-3DDC84)
+![Developer Assistance](https://img.shields.io/badge/Developer_Assistant-Secure_Scripts-2496ED)  
+
 
 ### JavaScript Code Generation & Validation LLM
   *Trained an LLM to generate, debug, and optimize JavaScript code for diverse use cases (web apps, APIs, Node.js). As an LLM Trainer, I curated datasets of real-world JS scenarios, authored high-quality code samples, and iteratively refined model outputs for accuracy and security. Key contributions included identifying and correcting edge cases (e.g., async/await pitfalls, callback hell), mitigating vulnerabilities (XSS, prototype pollution), and optimizing code efficiency (memory leaks, event-loop bottlenecks). The model now delivers production-ready JavaScript solutions aligned with modern best practices.*
+
+![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=nodedotjs)
+![ESLint](https://img.shields.io/badge/ESLint-Static_Analysis-4B32C3?logo=eslint)
+![XSS Mitigation](https://img.shields.io/badge/Security-XSS_Mitigation-FF4136)
+![Prototype Pollution](https://img.shields.io/badge/Anti_Pattern-Prototype_Pollution_Fix-805AD5)
+![Event Loop](https://img.shields.io/badge/Performance-Event_Loop_Optimization-FFD700)
+![Memory Management](https://img.shields.io/badge/Efficiency-Memory_Leak_Detection-34D058)
+![Production Ready](https://img.shields.io/badge/Production_Ready-ES6%2B_Compliant-3DDC84)
+![Best Practices](https://img.shields.io/badge/Code_Quality-Airbnb_Style_Guide-FF6B6B)
+![Async/Await](https://img.shields.io/badge/Pattern-Async/Await_Optimized-2496ED)
 
 
 ### Multimodal Adversarial Testing for LLM Security
