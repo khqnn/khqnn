@@ -103,7 +103,7 @@ Here are some ideas to get you started:
 ![NestJS](https://img.shields.io/badge/NestJS-9.0%2B-E0234E?logo=nestjs)
 ![WordPress](https://img.shields.io/badge/WordPress-CMS-21759B?logo=wordpress)
 
-### Databases  
+### Databases & Datastores  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15%2B-4169E1?logo=postgresql)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?logo=mysql)
 ![MongoDB](https://img.shields.io/badge/MongoDB-6.0%2B-47A248?logo=mongodb)
