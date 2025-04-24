@@ -83,7 +83,7 @@ Here are some ideas to get you started:
   - Hotwire Studios
 
 
-## 🛠️ Tools & Technologies  
+## 🛠️ Tools, Technologies & Techniques
 ### Programming Languages  
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript)
