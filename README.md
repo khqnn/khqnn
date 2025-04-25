@@ -251,54 +251,8 @@ stealth25519 Python Package
 - **Source code:** [stealth-py](https://github.com/khqnn/stealth-py)
 
 
-
-<!-- 
-
-feedback:
-1. claim ownership of the projects delivered individualy (update role and respnsibilites)
-2. add more graphics in projects
-3. add more code snippets
-
-
-Projects:
-1. nitro (metaverse game project, blockchain, nodejs backend with typescript, dynamodb, reactjs, docker, ec2, lambda)
-2. techpurview (society management system, nodejs backend, postgres, nextjs, aws ec2, docker)
-3. tossdown (multivendor ecommerce engine, nodejs, codeigniter, php, mysql, lambda)
-4. alpolink (dump exams selling, php, codeigniter, mysql)
-5. aangan (multivendar ecommerce for Pakistani women handcraft items, php, wordpress)
-6. information reterieval system (corpora, support vector machine, python, jupyter notebook, cassandra)
-7. clause generation (llm, prompt engineering, huggingface, quantization, gpu, Llama)
-8. stealth addresses (x25519, ed25519, stealth address generation, signature and verification)
-9.  smart contracts (erc20, erc721, contracts deployment, hardhat)
-10. prdocuts pair (a priori algo)
-11. reporting system (multitenant reports, data cubes, slices)
-12. location wise clustering (kibana and elasticsearch)
-13. searching service (migration of data from mysql to elasticsearch)
-14. kidsafe (app for youtube videos for kids using youtube apis)
-15. funding metrics (loan, installments, collection, react native, nodejs, salesforce, firestore, firebase auth, gcp)
-16. lead management system (lead ingestion, campaign, lead life cycle, nodejs, nextjs, docker, docker-compose)
-17. sales predictions (yearly, quarterly sales etc, data collection from relation database, data preprocessing, heatmap)
-18. notifications service (1k notifications per minute, fcm, cassandra, retry, recuring and one-time)
-19. scrappers (products scrapping from shopify site, python, beautifulsoap, selenium)
-
-Problems:
-1. nodejs scaling (event loop blocking, load testing)
-2. 302 redirection (old slugs, json in mysql)
-3. llms (quantization, prompts)
-4. optimization (mysql queries)
-5. assets reterival (blockchain)
-
-Presentations:
-1. jwt security, access management
-2. api gateway
-
-
-Project: techpurview
-Description: 
-Challenges Faced: 
-Solutions Implemented: 
-
-
+<!--
+@TODO: Case studies
 
 -->
 
