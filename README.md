@@ -60,7 +60,7 @@ Here are some ideas to get you started:
 
 ---
 
-#  I'm Khaqan Ashraf, a Senior Software Engineer based in Lahore, Pakistan.
+#  I'm Khaqan Ashraf, a Senior Software Engineer and an AI enthusiast.
 
 ## 🎓 Education
 - **MS in Data Science**  
