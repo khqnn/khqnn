@@ -1391,9 +1391,9 @@ Built a Python multi-step agent that automatically discovers, extracts, normaliz
                                                +-------------------------------+
                                                                |
                                                                v
-                                       +----------------+   +-----------------------+
-                                       | mcp.json (file) |   | docs.md / methods.md  |
-                                       +----------------+   +-----------------------+
+                                               +-----------------+   +----------+
+                                               | mcp.json (file) |   | docs.md  |
+                                               +-----------------+   +----------+
 ```
 
 
