@@ -133,6 +133,8 @@ Here are some ideas to get you started:
 <details>
 <summary style="list-style: none">📁 <strong><a href="#projects">Projects</a></strong> ☟</summary>
 
+- [Micro-location & National Address Mini-Apps](#microlocation-national-address)
+- [User Flow Automation](#user-flow-automation)
 - [Competitor's app](#competitors-app)
 - [CelcomDigi](#celcomdigi)
 - [Nitro](#nitro)
@@ -151,7 +153,7 @@ Here are some ideas to get you started:
 </details>
 
 <details>
-<summary style="list-style: none">🤖 <strong><a href="#ai-agent-projects">AI Agent Projects</a></strong> ☟</summary>
+<summary style="list-style: none">🤖 <strong><a href="#ai-agent-projects">AI Agent Case Studies</a></strong> ☟</summary>
 
 - [Android Method Discovery Agent](#android-method-discovery-agent)
 - [AI Agents for Medical Diagnostics](#ai-agents-for-medical-diagnostics)
@@ -460,8 +462,90 @@ Here are some ideas to get you started:
 <a id="projects"></a>
 ## 📁 Projects
 
-<a id="competitors-app"></a>
-### Competitor's app
+<a id="microlocation-national-address"></a>
+### Micro-location & National Address Mini-Apps - Mobile Integration
+
+<!-- ![Image](/images//tawakkalnah.png) -->
+<img width="1080" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b22f5fb0-1ed3-4c92-af3c-21dde79d9ad9" />
+
+- **Description**  
+  Lightweight, embeddable web micro-apps (vanilla JavaScript) integrated into a mobile app to capture, validate, and manage user locations and national address workflows. Fully token-secured and localized (Arabic/English), with runtime configuration loaded from a server-hosted JS file.
+
+- **Roles & Responsibilities**  
+  - Implemented front-end micro-apps and map UX flows (geo-location, search, pin placement).
+  - Integrated runtime config fetching and secure token propagation to backend APIs. 
+  - Built client-side validation and multi-step data capture (accommodation type, period, etc.).
+  - Implemented i18n and RTL/LTR UI adjustments and coordinated API contracts with the backend.
+
+- **Challenges Faced**  
+  1. ***Secure Token Propagation***  
+     **Challenge:** The host app must supply a user token to the micro-apps.  
+     **Solution:** Designed a small token handshake pattern where the host injects the token into the micro-app container, and every API call includes the token in the Authorization headers.
+  2. ***Ensuring Data Consistency Across Complex Workflows***  
+     **Challenge:** Concurrent data updates and distributed transactions risked inconsistencies.  
+     **Solution:** Implemented database transactions with SQLAlchemy’s session management and added retry logic for failed operations.
+  3. ***Localization & RTL Layout for Arabic***  
+     **Challenge:** The UI and flows needed to behave correctly in RTL.  
+     **Solution:** Separated string resources, used direction-aware CSS classes, and tested copy/UX in both languages. 
+  4. ***Config Drift & Dynamic Endpoints***  
+     **Challenge:** Endpoints/configs could change without rebuilding the apps.  
+     **Solution:** Loaded API endpoints and feature flags from a server-hosted JS config at runtime with sensible fallbacks and version checks.
+  5. ***Accurate Address Capture on Mobile***  
+     **Challenge:** Device geo-location and address validation varied by device/provider.  
+     **Solution:** Combined browser geo-location, reverse geocoding, and client-side validation with a user confirmation step before submission. 
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![REST APIs](https://img.shields.io/badge/API-RESTful-FF6B6B)
+![JWT](https://img.shields.io/badge/JWT-Auth-000000?logo=jsonwebtokens)
+![i18n](https://img.shields.io/badge/i18n-Localization-blue)
+![Geolocation](https://img.shields.io/badge/Geolocation-API-green)
+
+---
+
+<a id="user-flow-automation"></a>
+### User Flow Automation
+
+<!-- ![Image](/images/user%20flow%20automation.png) -->
+<img width="1289" height="904" alt="Image" src="https://github.com/user-attachments/assets/e6ddb2aa-5c24-4e1c-865b-3b0d6d894716" />
+
+
+- **Description**  
+  This comprehensive end-to-end test automation framework, built with Playwright, is designed for a modern web application. The framework ensures application quality by running tests across multiple environments (QA, staging, Production). It features a scalable architecture, supports cross-browser and mobile device testing, and provides detailed test reports through Allure integration. 
+
+- **Roles & Responsibilities**  
+  - **Framework Architect & Developer:** Designed and implemented a robust test automation framework from the ground up using Playwright and JavaScript, following industry best practices. 
+  - **Test Case Automation:** Authored and maintained a suite of automated test scripts for critical application features, covering smoke, regression, and end-to-end testing scenarios. 
+  - **Environment Management:** Established and managed configurations for multiple test environments (QA, Staging, Prod) using environment variables, ensuring consistent and reliable test execution. 
+  - **CI/CD Integration:** Set up and configured the test suite to run in a CI/CD pipeline (Bitbucket Pipelines), enabling automated testing on every code change.
+  - **Reporting & Analysis:** Integrated the Allure framework to generate detailed, interactive, and easy-to-understand test reports, helping stakeholders quickly assess the quality of the application. 
+  - **Code Quality & Maintainability:** Implemented the Page Object Model (POM) to create a clean, maintainable, and reusable test codebase. 
+
+- **Challenges Faced**
+  1. **Managing Test Data for Different Environments**  
+     **Challenge:** The application required different sets of test data for QA, Staging, and Production environments. Hardcoding data would have made the tests brittle and difficult to maintain. 
+     **Solution:** I implemented a data-driven approach using JSON files (`NGCA.qa.json`, `NGCA.prod.json`) for each environment. A global setup script dynamically loads the appropriate test data based on the target environment, making the tests flexible and easy to manage. 
+  2. **Ensuring Consistent Test Execution Across Environments**
+     **Challenge:** Running tests on different environments with varying configurations (e.g., base URLs, credentials) manually was error-prone and inefficient. 
+     **Solution:** I utilized `cross-env` and `.env` files to manage environment-specific variables. This allowed for seamless execution of tests against different environments with a single command (e.g., `npm run test:qa`), improving reliability and efficiency. 
+  3. **Lack of Detailed and Actionable Test Reports**
+     **Challenge:** The default test reports were not providing enough insight into test failures, making it difficult to debug and analyze issues. 
+     **Solution:** I integrated the Allure reporting tool with Playwright. This provided rich, interactive reports with screenshots, videos on failure, step-by-step execution details, and historical data, which significantly improved the debugging process and provided clear visibility into test results for the entire team. 
+
+![Playwright](https://img.shields.io/badge/Playwright-Test_Automation-2E8B57?logo=playwright)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript)
+![Allure Framework](https://img.shields.io/badge/Allure-Reporting-FFD700?logo=allure-framework)
+![Bitbucket Pipelines](https://img.shields.io/badge/Bitbucket_Pipelines-CI/CD-0052CC?logo=bitbucket)
+![NPM](https://img.shields.io/badge/NPM-Package_Manager-CB3837?logo=npm)
+![dotenv](https://img.shields.io/badge/dotenv-Env_Management-ECD53F)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Page Object Model](https://img.shields.io/badge/Design-Page_Object_Model-blue)
+![Cross-browser](https://img.shields.io/badge/Testing-Cross--browser-orange)
+
+---
+
+### Competitor's App
 
 ![Image](https://github.com/user-attachments/assets/e32c5d5a-dd48-427f-809f-589ea2e1a16c)
 
@@ -517,10 +601,6 @@ Here are some ideas to get you started:
 
 
 ### CelcomDigi
-
-
-
-
 
 
 <div id="nitro-img" align="center">
@@ -1264,7 +1344,7 @@ address issues during the scraping process, allowing for accurate data extractio
 
 
 <a id="ai-agent-projects"></a>
-## 🤖 AI Agent Projects
+## 🤖 AI Agent Case Studies
 
 Here are some of the AI agents I have built to solve real-world challenges.
 
@@ -1829,7 +1909,7 @@ ShoppingGPT combines RAG and Semantic Router to get the best of both worlds: LLM
 Employees at a mid-size company struggle to find answers in large collections of internal documents (handbooks, reports, FAQs). Searching dozens of PDFs and wikis is slow and error-prone, leading to lost productivity. A rapid solution was needed to allow staff (or customers) to ask natural-language questions and get accurate answers. 
 
 *   **Solution Approach**  
-We built a Retrieval-Augmented Generation chatbot using open-source LLMs and cloud APIs. First, documents are parsed and chunked each chunk is embedded (using an open source embedding model from HuggingFace) and stored in a vector database (Pinecone/FAISS). At query time, the user's question is embedded and a top-K similarity search retrieves relevant document snippets. These snippets, along with the query and hat history, form a prompt to an LLM (such as GPT-4 or a fine-tuned LLaMA2 model), which generates a concise, human-readable answer. The LLM can also be instructed via prompt-tuning to follow company style guidelines. This workflow automates knowledge retrieval and answer generation, blending AI agents (for search and generation) into a seamless Q&A service. 
+We built a Retrieval-Augmented Generation chatbot using open-source LLMs and cloud APIs. First, documents are parsed and chunked each chunk is embedded (using an open source embedding model from HuggingFace) and stored in a vector database (Pinecone/FAISS). At query time, the user's question is embedded and a top-K similarity search retrieves relevant document snippets. These snippets, along with the query and chat history, form a prompt to an LLM (such as GPT-4 or a fine-tuned LLaMA2 model), which generates a concise, human-readable answer. The LLM can also be instructed via prompt-tuning to follow company style guidelines. This workflow automates knowledge retrieval and answer generation, blending AI agents (for search and generation) into a seamless Q&A service. 
 
 
 *   **Architecture**  
@@ -1847,7 +1927,7 @@ User Query
 ```
 
 *   **Implementation Timeline**  
-    * Week 1: Gather representative corpus and set up ingestion. Prototype embedding pipeline using OpenAI's 'text-embedding-ada-0021 or ar open model (Mistral-based) to generate and store vectors.
+    * Week 1: Gather representative corpus and set up ingestion. Prototype embedding pipeline using OpenAI's 'text-embedding-ada-0021' or ar open model (Mistral-based) to generate and store vectors.
     * Week 2: Build RAG query flow. Implement API calls to the LLM (e.g. GPT-4) and integrate vector retrieval (using Pinecone/FAISS) to fetche relevant context. Develop prompt templates for the chatbot. 
     * Week 3: Create a simple chat UI (or CLI) and refine prompts. Add few-shot examples or fine-tune for a domain accuracy. Iterate with sample queries, adjusting chunk sizes and retrieval parameters.
     * Week 4: Test end-to-end, implement feedback loops (e.g. storing failed queries for human review), and deploy on production infrastructure (cloud or on-prem).
